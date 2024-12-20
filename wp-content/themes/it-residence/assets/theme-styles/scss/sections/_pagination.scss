@@ -1,0 +1,42 @@
+// Styling for Pagination
+
+.wp-block-query-pagination-numbers, .itre-pagination .nav-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    > * {
+        display: flex;
+        align-items: center;
+        
+        &:not(:last-child) {
+            margin-right: 1.25rem;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a.page-numbers:not(.next):not(.prev) {
+        background-color: var(--transparent);
+        border: solid 1px var(--accent);
+        overflow: hidden;
+        border-radius: 0.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--accent);
+        width: 2.75rem;
+        height: 2.75rem;
+
+        &:hover {
+            background-color: var(--accent);
+            color: var(--wp--preset--color--white);
+            filter: brightness(110%);
+        }
+    }
+}

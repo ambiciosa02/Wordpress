@@ -1,0 +1,32 @@
+// Styling for Testimonials Section
+
+#itre-testimonials {
+    text-align: center;
+    .itre-testimonial, img {
+        margin: auto;
+    }
+    .testimonials-wrapper {
+        margin-top: 2rem;
+    }
+    .test-author-thumb img {
+        border-radius: 50%;
+        width: 100px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-top: 0.4375rem;
+        margin-bottom: 0;
+        color: var(--accent);
+    }
+    .test-info {
+        margin: 0;
+    }
+    .test-text {
+        color: #555555;
+        margin: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        line-height: 1.5rem;
+    }
+}

@@ -1,0 +1,109 @@
+
+.itre-blog-wrapper, .itre-archive-wrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    justify-content: space-between;
+    gap: 1.75rem 1.5rem;
+
+    @media (min-width: 48rem) {
+
+        &.col2 {
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        }
+    
+        &.col3 {
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+        }
+    }
+}
+
+article.type-post, article.type-page {
+    
+    &[class^="col"] {
+        
+        .listing-wrapper {
+            width: auto;
+            flex-direction: column;
+            background-color: transparent;
+            margin-bottom: 1.5rem;
+        }
+
+        h2 {
+            margin: 0.3125rem auto;
+            @extend %regular;
+            a {
+                color: black;
+            }
+        }
+
+        .itre-col-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            box-shadow: $shadow1;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            height: 100%;
+        }
+
+        figure {
+            position: relative;
+            margin-bottom: 0;
+            width: 100%;
+            padding-bottom: 65%;
+        }
+
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .itre-content-wrapper {
+            padding: 1rem;
+        }
+
+        .entry-content {
+            margin-top: 0;
+            margin-bottom: 1.75rem;
+            @include line-clamp(3);
+        }
+        .entry-meta {
+
+            > * {
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .itre-read-more {
+            margin-top: auto;
+            a {
+                text-transform: uppercase;
+                @extend %bold;
+            }
+        }
+        &.col-md-4 {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+        &.col-md-6 {
+            h2 {
+                font-size: 1.75rem;
+            }
+        }
+
+        &:hover {
+
+            h2 {
+                text-decoration-line: underline;
+                text-decoration-thickness: 2px;
+                text-underline-offset: 3px;
+            }
+        }
+    }
+}

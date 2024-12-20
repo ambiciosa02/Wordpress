@@ -1,0 +1,449 @@
+/*
+Theme Name: Home Appliances Store
+Theme URI: https://www.titanthemes.net/themes/free-appliances-wordpress-theme/
+Author: Titan Themes
+Author URI: https://www.titanthemes.net/
+Description: The Home Appliances Store WordPress Theme is specifically designed for businesses looking to build a strong online presence in the home appliance industry. Whether you're selling small kitchen electronics or large household appliances like refrigerators, washing machines, and vacuum cleaners, this theme provides an excellent platform to showcase your products. Ideal for modern appliance shops, it supports the promotion of energy-efficient appliances and smart home devices, allowing you to highlight cutting-edge products for a tech-savvy audience. The theme’s clean, professional design is fully responsive, ensuring that your online store looks great and functions seamlessly on all devices, including desktops, tablets, and smartphones. With easy-to-use customization options, the theme lets you create a website that reflects your brand's unique identity, while built-in SEO optimization tools increase visibility and help your store rank higher in search engines. The theme includes dedicated product listings, category sections (such as air conditioners, dishwashers, microwave ovens), and integrations for digital marketing tools, making it easier for you to attract and engage customers. With a user-friendly interface, customers can effortlessly browse products, compare options, and make purchases with ease. Whether you're running a kitchen appliance store, home electronics retailer, vacuum cleaner shop, refrigerator dealer, smart home device supplier, air conditioner business, washing machine distributor, dishwasher seller, appliance repair service, or electronics eCommerce business, the Home Appliances Store WordPress Theme offers a powerful foundation to build a professional, functional, and customer-centric online store, helping you grow your business and stand out in a competitive market.
+Requires at least: 6.1
+Tested up to: 6.7
+Requires PHP: 7.2
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: home-appliances-store
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, wide-blocks, block-styles, blog, photography, portfolio
+*/
+footer.wp-block-template-part .photolancer-footer-list {
+  gap: 15px;
+}
+.social-icon {
+  gap: 0px;
+}
+.head-menu-box{
+  border-bottom: 2px solid #ffffff;
+}
+.home .head-menu-box{
+  border-bottom: 0;
+}
+.social-icon li{
+  background-color:transparent !important;
+}
+.social-icon li a svg{
+  height: 20px !important;
+  width: 20px !important;
+}
+.wlfmc-counter-wrapper{
+  width: auto;
+}
+.banner-text4 {
+  padding: 20px;
+  right: 0;
+  left: 0px;
+  width: 20%;
+  top: 9% !important;
+}
+.banner-area{
+  gap:0px;
+}
+.blue-bg,.banner-area-text-box{
+  position: relative;
+}
+.blue-bg img,.banner-area-text-box img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle !important;
+}
+.left-product-box {
+  border-radius: 18px 0px 0px 18px;
+}
+.product-main-box img{
+  width: 100%;
+}
+.banner-content {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.temp-box h2 span {
+  color: #EA1044;
+}
+.button-right{
+  gap:10px;
+}
+.temp-box h2 span.celcious {
+  color: #2A2A2C;
+  vertical-align: super;
+  font-size: 13px;
+}
+.head-menu-box ul li a:hover {
+  background: #000;
+  padding: 15px;
+}
+.head-menu-box ul li a {
+  padding: 15px;
+}
+.banner-text1, .banner-text2, .banner-text3, .banner-text4 {
+  display: inline-block;
+  padding: 10px 30px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, .4);
+  position: absolute;
+  top: 13%;
+  border-radius: 10px;
+  right: 30%;
+}
+.banner-text3 {
+  top: auto;
+  left: 20%;
+  right: 0;
+  width: 20%;
+  bottom: 3%;
+  padding: 20px 10px;
+}
+.banner-text2 {
+  top: auto;
+  bottom: 5%;
+  right: 7%;
+  padding: 15px 25px;
+}
+.product-main-box:hover .cart-btn a{
+  display: block;
+}
+.cart-btn a{
+  display: none;
+}
+.head-search-box .wc-block-product-categories select {
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 0;
+  text-transform: capitalize;
+  font-family: "Figtree", sans-serif;
+  padding: 5px 0;
+}
+.header-middle-box .wc-block-product-categories__button {
+  cursor: pointer;
+}
+.head-search-box .wc-block-product-categories__button {
+  background: #f5f5f5;
+  border: none;
+  padding: 5px;
+}
+.head-search-box .wp-block-search__inside-wrapper,
+.head-search-box input[type="search"]{
+  border:none;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.head-search-box .wp-block-search__button{
+  padding: 0;
+}
+.head-search-box input::placeholder{
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  color: #2A2A2C;
+  font-weight: 400;
+}
+.head-search-box svg.search-icon{
+  rotate: 260deg;
+}
+.head-search-box .wc-block-product-categories__button{
+  background: #f5f5f5;
+  border: none;
+  padding: 5px;
+}
+.head-search-box .wc-block-product-categories.is-dropdown{
+  gap: 5px;
+}
+.head-search-box .wc-block-product-categories select{
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 0;
+  text-transform: capitalize;
+  font-family: "Figtree", sans-serif;
+  padding: 5px 0;
+}
+.head-search-box svg.dashicon.dashicons-arrow-right-alt2 {
+  height: 15px;
+  width: 13px;
+  color: #000;
+}
+.translator-box  .gt_selector{
+  background: transparent !important;
+  border: none !important;
+  color: #ffffff;
+  padding-left: 5px;
+  width: 95px;
+  text-transform: uppercase;
+}
+.translator-box  .gtranslate_wrapper{
+  position: relative;
+}
+.translator-box  .gt_selector option{
+  color: #000000;
+}
+.chosen-container-single .chosen-single {
+  background: transparent !important;
+  color: #fff !important;
+  border: 0px !important;
+  box-shadow: none !important;
+}
+form.woocommerce-currency-switcher-form.woocs_show_flags {
+  height: 30px;
+}
+.woocommerce-currency-switcher-form.woocs_show_flags br{
+  display: none;
+}
+.left-product-box h3:after {
+  display: inline-block;
+  content: "";
+  border-top: 5px solid #ea1044;
+  width: 8%;
+  margin: -4px 20px;
+  transform: translateY(-10px);
+}
+.left-product-box h3{
+  position: relative;
+}
+.wp-block-image img{
+  vertical-align: unset;
+}
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container li a {
+  color: #000;
+}
+.wp-site-blocks{
+	padding: 0 !important;
+}
+footer.wp-block-template-part {
+  margin-top: 0;
+}
+.comment-respond.wp-block-post-comments-form.wp-block-post-comments-form input[type=submit]{
+  color: #fff;
+}
+.sidebar-box .wp-block-search__button svg{
+  fill: #fff;
+}
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  span.wp-block-navigation-item__label {
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 781px) {
+  .slider-banner{
+    text-align: center;
+  }
+  .shortcode-box{
+    justify-content: center !important;
+  }
+  .head-search-box .wc-block-product-categories.is-dropdown{
+    justify-content: center;
+  }
+  .head-logo-box{
+    text-align: center;
+  }
+  .search-inner{
+    border-left: 0px;
+    padding-left: 0px !important;
+    margin-top: 10px !important;
+  }
+  .head-menu-box ul{
+    justify-content: center;
+  }
+  .header-icon-box{
+    gap:8px;
+  }
+  .banner-text1 {
+    left: 12px;
+  }
+  .banner-text3{
+    width: 47%;
+    left: 4%;
+  }
+  .product-main-box{
+    padding-right: 0px !important;
+  }
+  .left-product-box {
+    border-radius: 18px 18px 0px 0px;
+    text-align: center;
+  }
+  .product-main-box h3,.product-main-box p{
+    text-align: center;
+  }
+  .deal-main-box{
+    border: 0px;
+  }
+  .deals-btn{
+    justify-content: center;
+  }
+  .banner-text4 {
+    width: 46%;
+    top: 9% !important;
+    left: 10px;
+  }
+  .banner-text1, .banner-text2, .banner-text3, .banner-text4{
+    position: relative;
+  }
+  .banner-text2 {
+    right: -3%;
+    padding: 15px 20px;
+  }
+  .head-menu-box nav{
+    justify-content: center !important;
+  }
+  .left-bg-image{
+    display: none;
+  }
+  .banner-area-text-box{
+    text-align: center !important;
+  }
+  .banner-btn-box{
+    justify-content: center !important;
+    display: flex;
+  }
+  .banner-content{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 20px 0px;
+    transform: none;
+  }
+  .icon-box figure{
+    margin-left: 0em !important;
+  }
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    margin:0 auto;
+  }
+  .button-right{
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  .dummy-box {
+    justify-content: center;
+    display: flex;
+  }
+  .top-text-box p{
+    text-align: center !important;
+  }
+  .slider-banner .wp-block-buttons {
+    justify-content: center;
+  }
+  .banner-box-1 .box-1row {
+    gap: 10px;
+    align-items: center !important;
+    display: flex !important;
+    width: 100%;
+    flex-direction: column !important;
+  }
+  .banner-box-1 .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{
+    flex-basis: 50% !important;
+  }
+  .banner-box-2 .wp-block-column.is-vertically-aligned-center{
+    flex-basis: 45% !important;
+  }
+}
+ 
+@media screen and (min-width: 782px) and (max-width: 1200px) {
+  .left-bg-image{
+    display: none;
+  }
+  .banner-area{
+    position: relative;
+  }
+  .top-header-box {
+    gap: 5px;
+    padding: 0px 10px !important;
+    max-width: 100%;
+  }
+  .social-row {
+    gap:5px;
+  }
+  .dummy-box{
+    flex-basis: 28% !important;
+  }
+  .banner-content{
+    position: relative;
+    transform: none;
+  }
+  .banner-main-heading{
+    font-size: 20px !important;
+  }
+  .banner-btn-box a{
+    padding-right: 10px !important;
+    padding-left: 15px !important
+  }
+  .cart-btn{
+    justify-content: center;
+  }
+  .blue-bg img.wp-image-51 {
+    height: 450px;
+    object-fit: cover;
+  }
+  .banner-text4 {
+    width: 40%;
+  }
+  .banner-text1, .banner-text2, .banner-text3, .banner-text4 {
+    right: 6%;
+  }
+  .deal-main-box{
+    max-width: 95% !important;
+  }
+  .left-product-box p{
+    margin-top: 10px !important;
+  }
+  .theme-btn{
+    font-size: 12px !important;
+  }
+  .theme-btn a{
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+  }
+  .raitng-box{
+    display: block !important;
+    text-align: center;
+  }
+  .banner-text3 {
+    left: 8%;
+    width: 35%;
+  }
+  .banner-btn-box{
+    flex-basis: 72% !important;
+  }
+  .middle-header-column{
+    max-width: 100%;
+    gap: 5px;
+    padding: 0px 10px !important;
+  }
+  .top-text-box{
+    flex-basis: 42% !important;
+  }
+  .translator-box{
+    flex-basis: 30% !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .admin-bar .wp-block-navigation__responsive-container-close {
+    color: #ffffff;
+    top:15px;
+  }
+  .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container{
+    justify-content: center !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 781px) {
+  .product-main {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+}

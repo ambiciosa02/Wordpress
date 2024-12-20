@@ -1,0 +1,194 @@
+li.discount-text {
+    font-size: 12px;
+    color: #000;
+    margin: 12px 10px 25px 10px;
+    text-align: center;
+    padding: 8px;
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+}
+.premium_info.discount-box ul li a{
+    text-align: center;
+    background: green;
+}
+.discount-box {
+    background-color: #dbd8d6;
+    padding: 10px;
+}
+div#description h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+}
+.premium_info ul li a, .up-to-pro {
+    font-weight: bold;
+	padding: 15px 10px;
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	border-radius: 3px;
+	font-size: 12px;
+    letter-spacing: 1.4px;
+	overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #ff9519;
+    z-index: 2;    
+}
+
+a.premium_info_btn {
+    font-weight: bold;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+    overflow: hidden;
+    text-align: center;
+    -webkit-transition: .3s;
+    transition: .3s;
+    background: #ff974f;
+    z-index: 2;
+}
+li#accordion-section-home_decor_shop_our_product_section .accordion-section-title:after,
+li#accordion-section-home_decor_shop_category_section .accordion-section-title:after,
+li#accordion-section-home_decor_shop_our_projects_section .accordion-section-title:after,
+li#accordion-section-home_decor_shop_our_team_section .accordion-section-title:after,
+li#accordion-section-home_decor_shop_our_testimonial_section .accordion-section-title:after,
+li#accordion-section-home_decor_shop_featured_product_section .accordion-section-title:after,
+li#accordion-section-home_decor_shop_our_blog_section .accordion-section-title:after,
+li#accordion-section-home_decor_shop_our_sponsor_section .accordion-section-title:after
+
+{
+    content: "PRO";
+    padding: 12px 18px;
+    background: #0085ba;
+    color: #fff !important;
+    top: 0px;
+    font: unset;
+    right: 0px;
+    line-height: 18px;
+    border-radius: 0px;
+    font-size: 12px;
+}
+.premium_info_btn:hover, .premium_info_btn:focus{
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.15);  
+}
+.premium_info ul li a:hover, .premium_info ul li a:focus{
+	transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 0.5rem 1.875rem rgba(0, 0, 0, 0.15);	
+}
+li#accordion-section-upgrade_premium .accordion-section-title:after {
+    content: "\f174" !important;
+    color: #ffffff !important;
+}
+li#accordion-section-upgrade_premium .accordion-section-title,
+li#accordion-section-upgrade_premium .accordion-section-title:hover {
+	color: #ffffff !important;
+    background: #ff9519 !important;
+	border-left: none;
+}
+.customize-control-kirki-dashicons .icons-wrapper{
+	overflow: unset !important;
+}
+.customize-control-kirki-dashicons .icons-wrapper input:checked+label .dashicons {
+    border: none !important;
+    color: #3498db !important;
+}
+div#input_home_decor_shop_post_layout img {
+    max-width: 100%;
+    max-width: 70px;
+    cursor: pointer;
+    border: 3px solid #ddd;
+}
+
+/*Admin Notice Css*/
+
+.st-notification-column-wrapper{
+    width:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    border-top:1px solid #eee;
+    padding-top:20px;
+    margin-top:3px;
+    margin-bottom: 20px;
+}
+.st-notification-column-wrapper h2{
+    margin:0;
+}
+.st-notification-footer img{
+    margin-bottom:-3px;
+    margin-left:10px;
+}
+.st-notification-column-wrapper .button{
+    min-width:180px;
+    text-align:center;
+    margin-top:10px;
+}
+.st-notification-column{
+    margin-right:10px;
+    padding:0 10px;
+    max-width:250px;
+    width:100%;
+}
+.st-notification-column img{
+    border:1px solid #eee;
+}
+.st-notification-footer{
+    display:inline-block;
+    width:100%;
+    padding:15px 0;
+    border-top:1px solid #eee;
+    margin-top:10px;
+}
+.st-notification-column:first-of-type{
+    padding-left:0;
+    max-width:255px;
+}
+.st-notification-column-list li{
+    list-style-type:circle;
+    margin-left:15px;
+    font-size:14px;
+}
+@media only screen and (max-width:1000px){
+    .st-notification-column{
+        max-width:33%;
+    }
+}
+@media only screen and (max-width:800px){
+    .st-notification-column{
+        max-width:50%;
+    }
+    .st-notification-column:first-of-type{
+        display:none;
+    }
+}
+@media only screen and (max-width:600px){
+    .st-notification-column-wrapper{
+        display:block;
+    }
+    .st-notification-column{
+        width:100%;
+        max-width:100%;
+        display:inline-block;
+        padding:0;
+        margin:0;
+    }
+    span.st-notification-column:last-of-type{
+        margin-top:30px;
+    }
+}
+
+a.premium_info_btn.bundle {
+    margin-top: 10px;
+    background: #008000;
+}

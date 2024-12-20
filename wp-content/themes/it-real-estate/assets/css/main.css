@@ -1,0 +1,30 @@
+/*=== Theme Styling ===*/
+
+body.home,
+body.page-template-template-property-listings,
+body.post-type-archive-property {
+
+    .itre-property-filter-wrapper {
+        max-width: 62rem;
+    }
+
+    .itre-property-filter {
+        margin-top: 0;
+        position: relative;
+        z-index: 9;
+    }
+
+    select:focus {
+        outline: 3px solid var(--dark);
+    }
+
+    .itre-hero-area {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #header-image {
+        display: flex;
+        flex-direction: column;
+    }
+}

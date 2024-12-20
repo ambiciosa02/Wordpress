@@ -1,0 +1,68 @@
+// Header Styling
+
+.itre-cta {
+    @extend %btn;
+}
+
+#masthead {
+    background-color: white;
+
+    & > * {
+        position: relative;
+        padding-top: 0.625rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .site-title, .site-description {
+        margin-bottom: 0;
+    }
+
+    .custom-logo {
+        max-width: 12.5rem;
+    }
+    body:not(.home) & {
+        .site-title {
+            a {
+                font-size: 2.5rem;
+                @extend %bold;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+#header-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 18.75rem;
+    
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}
+
+.itre-hero-area {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+    color: white;
+    h1 {
+        font-size: 2.5rem;
+        @media (min-width: 48rem) {
+            font-size: 5rem;
+        }
+    }
+    p {
+        font-size: 1.25rem;
+    }
+}

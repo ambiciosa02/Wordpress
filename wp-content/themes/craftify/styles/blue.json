@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "slug": "base",
+          "color": "#fff",
+          "name": "Base"
+        },
+        {
+          "slug": "contrast",
+          "color": "#111",
+          "name": "Contrast"
+        },
+        {
+          "slug": "primary",
+          "color": "#000080 ",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#0437e5a6",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#F6F6F6",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "transparent",
+          "color": "transparent",
+          "name": "Transparent"
+        },
+        {
+          "slug": "secondary-bg",
+          "color": "#edededed",
+          "name": "Secondary Background"
+        },
+        {
+          "slug": "table-line",
+          "color": "rgba(0,0,0,.1)",
+          "name": "Table Line"
+        },
+        {
+          "slug": "Theme",
+          "color": "#57575b",
+          "name": "Theme"
+        },
+        {
+          "slug": "button-hover-bg",
+          "color": "#0437e5a6",
+          "name": "Button Hover Bg"
+        },
+        {
+          "slug": "button-hover-text",
+          "color": "#f1f1f1",
+          "name": "Button Hover Text"
+        }
+      ]
+    }
+  }
+}

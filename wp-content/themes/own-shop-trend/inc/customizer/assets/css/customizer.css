@@ -1,0 +1,25 @@
+#accordion-section-own_shop_buy {
+	display: none !important;
+}
+
+#accordion-section-own_shop_trend_buy {
+	display: block !important;
+}
+
+#customize-control-own_shop_label_page_sidebar_settings,
+#customize-control-own_shop_enable_page_sidebar,
+#customize-control-own_shop_page_sidebar_layout {
+	display: none;
+}
+
+#customize-control-own_shop_label_top_bar_info {
+	display: none !important;
+}
+
+#accordion-section-own_shop_header_category_menu_settings {
+	display: none !important;
+}
+
+#accordion-panel-woocommerce > h3 > span:nth-child(2) {
+	display: none !important;
+}

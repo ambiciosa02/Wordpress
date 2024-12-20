@@ -1,0 +1,1679 @@
+# Copyright (C) 2024 drakearthur
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Supermarket Shopping 0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/supermarket-shopping\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-13T13:50:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: supermarket-shopping\n"
+
+#. Theme Name of the theme
+#: style.css
+#: footer.php:84
+msgid "Supermarket Shopping"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.seothemesexpert.com/products/free-supermarket-wordpress-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "The Supermarket Shopping WordPress Theme is a powerful and versatile solution for grocery store owners looking to establish a professional online presence. Specifically designed for grocery supermarkets, it offers a user-friendly platform for showcasing products, promotions, and services. Whether you run a local supermarket, a grocery supermarket chain, or an organic supermarket, this theme is built to meet the needs of online grocery shopping and delivery services. The theme features an intuitive design that allows for easy navigation, making it simple for customers to browse through fresh produce, bakery items, dairy, meat, and more. With customizable sections, you can promote supermarket deals, grocery store discounts, and supermarket loyalty programs to encourage customer retention. The online grocery store functionality helps businesses integrate a smooth supermarket checkout experience for customers ordering groceries online or opting for grocery pickup or supermarket delivery services. Visually, the theme offers a clean, modern layout that enhances the shopping experience with vibrant product images and easy-to-find categories. Whether showcasing supermarket specials, grocery supermarket offers, or supermarket flyer promotions, the Supermarket Shopping WordPress Theme offers the flexibility needed for an effective eCommerce website. It’s SEO-friendly and optimized for mobile, ensuring that customers can enjoy a seamless shopping experience across devices."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "drakearthur"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.seothemesexpert.com/"
+msgstr ""
+
+#: 404.php:18
+msgid "Go to Home"
+msgstr ""
+
+#: comments.php:41
+#: comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44
+#: comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45
+#: comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: demo-import/demo-import-contents.php:180
+msgid "Failed to find TGM"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:227
+msgid "More Info"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:246
+msgid "Skip"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:269
+msgid "Buy Now"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:270
+#: inc/aboutthemes/about-theme.php:122
+#: inc/aboutthemes/about-theme.php:150
+#: inc/customizer/customizer-pro/customizer-upgrade-class.php:94
+msgid "Buy All Themes"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:271
+msgid "Free Documentation"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:272
+msgid "Support"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:296
+#: demo-import/demo-import-settings.php:33
+msgid "Welcome to "
+msgstr ""
+
+#: demo-import/demo-import-contents.php:300
+#: demo-import/demo-import-settings.php:35
+msgid "Start Now"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:305
+#: demo-import/demo-import-settings.php:40
+msgid "Plugins"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:309
+#: demo-import/demo-import-settings.php:42
+#: demo-import/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:314
+#: demo-import/demo-import-settings.php:47
+msgid "Demo Importer"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:318
+#: demo-import/demo-import-settings.php:49
+msgid "Import Demo Content"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:323
+#: demo-import/demo-import-settings.php:54
+msgid "All Done"
+msgstr ""
+
+#. translators: %s: Theme name.
+#: demo-import/demo-import-contents.php:360
+msgid "Thank you for choosing the %s theme. You will only need a few minutes to configure and launch your new website with the help of this quick setup tutorial. To begin using your website, simply follow the wizard's instructions."
+msgstr ""
+
+#: demo-import/demo-import-contents.php:377
+msgid "Additional plugins always make your website exceptional. Install these plugins by clicking the install button. You may also deactivate them from the dashboard."
+msgstr ""
+
+#: demo-import/demo-import-contents.php:410
+msgid "This theme supports importing the demo content and adding widgets. Get them installed with the below button. Using the Customizer, it is possible to update or even deactivate them."
+msgstr ""
+
+#: demo-import/demo-import-contents.php:428
+msgid "Go To Dashboard"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:431
+msgid "Preview Site"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:484
+msgid "No Slug Found"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:501
+msgid "Activating Plugin"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:516
+msgid "Updating Plugin"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:531
+msgid "Installing Plugin"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:540
+msgid "Success"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:560
+#: inc/extras.php:111
+msgid "Home"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:570
+#: inc/aboutthemes/about-theme.php:44
+msgid "About"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:581
+msgid "Services"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:592
+msgid "Blog"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:603
+msgid "404 Page"
+msgstr ""
+
+#: demo-import/demo-import-contents.php:614
+msgid "Contact Us"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: demo-import/tgm/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: demo-import/tgm/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: demo-import/tgm/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: demo-import/tgm/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: demo-import/tgm/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: demo-import/tgm/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:386
+#: demo-import/tgm/class-tgm-plugin-activation.php:827
+#: demo-import/tgm/class-tgm-plugin-activation.php:2533
+#: demo-import/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:387
+#: demo-import/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:388
+#: demo-import/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: demo-import/tgm/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:934
+#: demo-import/tgm/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:1121
+#: demo-import/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: demo-import/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: demo-import/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: demo-import/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: demo-import/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: demo-import/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: demo-import/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2553
+#: inc/aboutthemes/about-theme.php:115
+msgid "Version"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: demo-import/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: demo-import/tgm/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: demo-import/tgm/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3509
+#: demo-import/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3509
+#: demo-import/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: demo-import/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: demo-import/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: demo-import/tgm/tgm.php:11
+msgid "WooCommerce"
+msgstr ""
+
+#: demo-import/tgm/tgm.php:17
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: demo-import/tgm/tgm.php:24
+msgid "Translate WordPress with GTranslate"
+msgstr ""
+
+#: footer.php:17
+#: searchform.php:15
+msgid "Search"
+msgstr ""
+
+#: footer.php:31
+msgid "Recent Posts"
+msgstr ""
+
+#: footer.php:44
+msgid "Pages"
+msgstr ""
+
+#: footer.php:56
+msgid "Categories"
+msgstr ""
+
+#: footer.php:82
+msgid "Copyright &copy; 2024,"
+msgstr ""
+
+#: footer.php:88
+msgid "WordPress Theme"
+msgstr ""
+
+#: footer.php:97
+msgid "TOP"
+msgstr ""
+
+#: functions.php:42
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:106
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: functions.php:108
+msgid "The Primary Widget Area"
+msgstr ""
+
+#: functions.php:116
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:118
+msgid "The Footer Widget Area"
+msgstr ""
+
+#. translators: 1: welcome page link starting html tag, 2: welcome page link ending html tag.
+#: functions.php:285
+msgid "Welcome! Thank you for choosing %1$s!"
+msgstr ""
+
+#: functions.php:292
+msgid "One Click Demo Import"
+msgstr ""
+
+#: header.php:18
+msgid "Loading"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:34
+msgid "About Theme"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:43
+msgid "Secondary menu"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:46
+msgid "Compare free Vs Pro"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:58
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:58
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:61
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:61
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:76
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:77
+msgid "Take a step towards excellence, try our premium theme. Use Code"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:78
+msgid "Upgrade Pro"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:82
+#: inc/aboutthemes/about-theme.php:84
+msgid "Lite Documentation"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:83
+msgid "The free theme documentation can help you set up the theme."
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:88
+#: inc/aboutthemes/about-theme.php:90
+msgid "Theme Info"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:89
+msgid "Know more about Supermarket Shopping."
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:94
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:95
+msgid "You can get all theme options in customizer."
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:96
+msgid "Customize"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:100
+msgid "Need Support?"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:101
+msgid "If you are having some issues with the theme or you want to tweak some thing, you can contact us our expert team will help you."
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:102
+msgid "Support Forum"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:106
+msgid "Review"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:107
+msgid "If you have loved our theme please show your support with the review."
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:108
+msgid "Rate Us"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:118
+#: inc/aboutthemes/about-theme.php:146
+msgid "Upgrade to pro"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:120
+#: inc/aboutthemes/about-theme.php:148
+msgid "View Demo"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:124
+#: inc/aboutthemes/about-theme.php:152
+msgid "Theme Instructions"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:155
+msgid "View Free vs Pro Table below:"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:160
+msgid "Free Theme"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:161
+msgid "Pro Theme"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:166
+msgid "One click demo import"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:171
+msgid "Color pallete and font options"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:176
+msgid "Demo Content has 8 to 10 sections"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:181
+msgid "Rearrange sections as per your need"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:186
+msgid "Internal Pages"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:191
+msgid "Plugin Integration"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:196
+msgid "Ultimate technical support"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:201
+msgid "Access our Support Forums"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:206
+msgid "Get regular updates"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:211
+msgid "Install theme on unlimited domains"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:216
+msgid "Mobile Responsive"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:221
+#: inc/customizer/customizer-options/footer.php:57
+#: inc/customizer/customizer-options/footer.php:151
+#: inc/customizer/customizer-options/frontpage.php:57
+#: inc/customizer/customizer-options/frontpage.php:283
+#: inc/customizer/customizer-options/frontpage.php:397
+#: inc/customizer/customizer-options/general.php:90
+#: inc/customizer/customizer-options/general.php:181
+#: inc/customizer/customizer-options/general.php:274
+#: inc/customizer/customizer-options/general.php:357
+#: inc/customizer/customizer-options/general.php:404
+#: inc/customizer/customizer-options/general.php:486
+#: inc/customizer/customizer-options/header.php:83
+#: inc/customizer/customizer-options/post.php:196
+#: inc/customizer/customizer-options/post.php:370
+#: inc/customizer/customizer-options/sidebar-option.php:177
+#: inc/customizer/customizer-options/typography.php:109
+#: inc/customizer/customizer-options/typography.php:126
+#: inc/customizer/customizer-options/upper-header.php:154
+msgid "Easy Customization"
+msgstr ""
+
+#: inc/aboutthemes/about-theme.php:228
+msgid "Go for Premium"
+msgstr ""
+
+#: inc/class-wp-bootstrap-navwalker.php:370
+msgid "Add a menu"
+msgstr ""
+
+#: inc/custom-header.php:19
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:11
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:19
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:38
+msgid "Hide / Show Footer Widgets"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:56
+#: inc/customizer/customizer-options/footer.php:150
+#: inc/customizer/customizer-options/frontpage.php:56
+#: inc/customizer/customizer-options/frontpage.php:282
+#: inc/customizer/customizer-options/frontpage.php:396
+#: inc/customizer/customizer-options/general.php:89
+#: inc/customizer/customizer-options/general.php:180
+#: inc/customizer/customizer-options/general.php:273
+#: inc/customizer/customizer-options/general.php:356
+#: inc/customizer/customizer-options/general.php:403
+#: inc/customizer/customizer-options/general.php:485
+#: inc/customizer/customizer-options/header.php:82
+#: inc/customizer/customizer-options/post.php:195
+#: inc/customizer/customizer-options/post.php:369
+#: inc/customizer/customizer-options/sidebar-option.php:176
+#: inc/customizer/customizer-options/typography.php:108
+#: inc/customizer/customizer-options/typography.php:125
+#: inc/customizer/customizer-options/upper-header.php:153
+msgid "Supermarket Shopping Pro comes with additional features."
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:57
+#: inc/customizer/customizer-options/footer.php:151
+#: inc/customizer/customizer-options/frontpage.php:57
+#: inc/customizer/customizer-options/frontpage.php:283
+#: inc/customizer/customizer-options/frontpage.php:397
+#: inc/customizer/customizer-options/general.php:90
+#: inc/customizer/customizer-options/general.php:181
+#: inc/customizer/customizer-options/general.php:274
+#: inc/customizer/customizer-options/general.php:357
+#: inc/customizer/customizer-options/general.php:404
+#: inc/customizer/customizer-options/general.php:486
+#: inc/customizer/customizer-options/header.php:83
+#: inc/customizer/customizer-options/post.php:196
+#: inc/customizer/customizer-options/post.php:370
+#: inc/customizer/customizer-options/sidebar-option.php:177
+#: inc/customizer/customizer-options/typography.php:109
+#: inc/customizer/customizer-options/typography.php:126
+#: inc/customizer/customizer-options/upper-header.php:154
+msgid "12+ Sections"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:57
+#: inc/customizer/customizer-options/footer.php:151
+#: inc/customizer/customizer-options/frontpage.php:57
+#: inc/customizer/customizer-options/frontpage.php:283
+#: inc/customizer/customizer-options/frontpage.php:397
+#: inc/customizer/customizer-options/general.php:90
+#: inc/customizer/customizer-options/general.php:181
+#: inc/customizer/customizer-options/general.php:274
+#: inc/customizer/customizer-options/general.php:357
+#: inc/customizer/customizer-options/general.php:404
+#: inc/customizer/customizer-options/general.php:486
+#: inc/customizer/customizer-options/header.php:83
+#: inc/customizer/customizer-options/post.php:196
+#: inc/customizer/customizer-options/post.php:370
+#: inc/customizer/customizer-options/sidebar-option.php:177
+#: inc/customizer/customizer-options/typography.php:109
+#: inc/customizer/customizer-options/typography.php:126
+#: inc/customizer/customizer-options/upper-header.php:154
+msgid "One Click Demo Importer"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:57
+#: inc/customizer/customizer-options/footer.php:151
+#: inc/customizer/customizer-options/frontpage.php:57
+#: inc/customizer/customizer-options/frontpage.php:283
+#: inc/customizer/customizer-options/frontpage.php:397
+#: inc/customizer/customizer-options/general.php:90
+#: inc/customizer/customizer-options/general.php:181
+#: inc/customizer/customizer-options/general.php:274
+#: inc/customizer/customizer-options/general.php:357
+#: inc/customizer/customizer-options/general.php:404
+#: inc/customizer/customizer-options/general.php:486
+#: inc/customizer/customizer-options/header.php:83
+#: inc/customizer/customizer-options/post.php:196
+#: inc/customizer/customizer-options/post.php:370
+#: inc/customizer/customizer-options/sidebar-option.php:177
+#: inc/customizer/customizer-options/typography.php:109
+#: inc/customizer/customizer-options/typography.php:126
+#: inc/customizer/customizer-options/upper-header.php:154
+msgid "Section Reordering Facility"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:57
+#: inc/customizer/customizer-options/footer.php:151
+#: inc/customizer/customizer-options/frontpage.php:57
+#: inc/customizer/customizer-options/frontpage.php:283
+#: inc/customizer/customizer-options/frontpage.php:397
+#: inc/customizer/customizer-options/general.php:90
+#: inc/customizer/customizer-options/general.php:181
+#: inc/customizer/customizer-options/general.php:274
+#: inc/customizer/customizer-options/general.php:357
+#: inc/customizer/customizer-options/general.php:404
+#: inc/customizer/customizer-options/general.php:486
+#: inc/customizer/customizer-options/header.php:83
+#: inc/customizer/customizer-options/post.php:196
+#: inc/customizer/customizer-options/post.php:370
+#: inc/customizer/customizer-options/sidebar-option.php:177
+#: inc/customizer/customizer-options/typography.php:109
+#: inc/customizer/customizer-options/typography.php:126
+#: inc/customizer/customizer-options/upper-header.php:154
+msgid "Advance Typography"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:57
+#: inc/customizer/customizer-options/footer.php:151
+#: inc/customizer/customizer-options/frontpage.php:57
+#: inc/customizer/customizer-options/frontpage.php:283
+#: inc/customizer/customizer-options/frontpage.php:397
+#: inc/customizer/customizer-options/general.php:90
+#: inc/customizer/customizer-options/general.php:181
+#: inc/customizer/customizer-options/general.php:274
+#: inc/customizer/customizer-options/general.php:357
+#: inc/customizer/customizer-options/general.php:404
+#: inc/customizer/customizer-options/general.php:486
+#: inc/customizer/customizer-options/header.php:83
+#: inc/customizer/customizer-options/post.php:196
+#: inc/customizer/customizer-options/post.php:370
+#: inc/customizer/customizer-options/sidebar-option.php:177
+#: inc/customizer/customizer-options/typography.php:109
+#: inc/customizer/customizer-options/typography.php:126
+#: inc/customizer/customizer-options/upper-header.php:154
+msgid "24x7 Support"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:66
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:95
+msgid "Hide / Show Footer Copytight"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:115
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:128
+msgid "Copyright Position"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:133
+msgid "Right Align"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:134
+msgid "Left Align"
+msgstr ""
+
+#: inc/customizer/customizer-options/footer.php:135
+msgid "Center Align"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:10
+msgid "Frontpage Sections"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:19
+msgid "Category Section"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:38
+#: inc/customizer/customizer-options/frontpage.php:87
+#: inc/customizer/customizer-options/frontpage.php:313
+#: inc/customizer/customizer-options/general.php:55
+msgid "Hide / Show Section"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:67
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:103
+msgid "Select Slide Image Page"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:122
+msgid "Add discount"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:139
+msgid "Slider Button Text"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:156
+msgid "Slider Button Link"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:168
+msgid "Select Top Product Image 1"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:177
+msgid "Add Top Products Text 1"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:187
+msgid "Add Products Title 1"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:197
+msgid "Add Products Content 1"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:207
+msgid "Add Product Button Text 1"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:217
+msgid "Add Product Button link 1"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:227
+msgid "Select Top Product Image 2"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:236
+msgid "Add Top Products Text 2"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:246
+msgid "Add Products Title 2"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:256
+msgid "Add Product Button Text 2"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:266
+msgid "Add Product Button link 2"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:293
+msgid "Best  Seller Section"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:332
+msgid "Add Heading"
+msgstr ""
+
+#: inc/customizer/customizer-options/frontpage.php:380
+msgid "Select Trending Products Category"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:7
+msgid "General"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:16
+msgid "Breadcrumb Section"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:36
+msgid "Settings"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:72
+msgid "Breadcrumb separator"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:100
+msgid "Preloader"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:118
+msgid "Hide / Show Preloader"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:140
+msgid "Preloader Background Color"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:162
+msgid "Preloader Color"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:192
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:211
+msgid "Hide / Show Scroll To Top"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:233
+msgid "Scroll To Top Color"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:255
+msgid "Scroll To Top Background Color"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:285
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:301
+msgid "Product Per Columns"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:318
+msgid "Product Per Page"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:338
+msgid "Hide / Show Woocommerce Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:367
+msgid "Sticky Header Settings"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:385
+msgid "Hide / Show Sticky Header"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:414
+msgid "404 Section"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:431
+msgid "404 Heading"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:449
+msgid "404 Title"
+msgstr ""
+
+#: inc/customizer/customizer-options/general.php:467
+msgid "404 Content"
+msgstr ""
+
+#: inc/customizer/customizer-options/header.php:18
+msgid "Hide / Show Site Title"
+msgstr ""
+
+#: inc/customizer/customizer-options/header.php:38
+msgid "Hide / Show Tagline"
+msgstr ""
+
+#: inc/customizer/customizer-options/header.php:59
+msgid "Logo Width"
+msgstr ""
+
+#: inc/customizer/customizer-options/header.php:96
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/customizer-options/header.php:107
+msgid "Site Identity"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:7
+msgid "Post Option"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:16
+msgid "Archive Post"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:29
+msgid "Blog Post Layouts"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:51
+#: inc/customizer/customizer-options/post.php:226
+msgid "Hide / Show Post Heading"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:72
+#: inc/customizer/customizer-options/post.php:247
+msgid "Hide / Show Post Content"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:93
+#: inc/customizer/customizer-options/post.php:268
+msgid "Hide / Show Post Feature Image"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:114
+#: inc/customizer/customizer-options/post.php:289
+msgid "Hide / Show Post Date"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:135
+#: inc/customizer/customizer-options/post.php:310
+msgid "Hide / Show Post Comment"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:156
+#: inc/customizer/customizer-options/post.php:331
+msgid "Hide / Show Post Author"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:177
+#: inc/customizer/customizer-options/post.php:351
+msgid "Hide / Show Post Tags"
+msgstr ""
+
+#: inc/customizer/customizer-options/post.php:206
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:7
+#: inc/customizer/customizer-options/sidebar-option.php:16
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:37
+msgid "Hide / Show Archive Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:58
+msgid "Hide / Show Index Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:79
+msgid "Hide / Show Pages Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:100
+msgid "Hide / Show Search Result Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:121
+msgid "Hide / Show Single Post Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:142
+msgid "Hide / Show Page Width Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:155
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:160
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/sidebar-option.php:161
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-options/typography.php:7
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/customizer-options/typography.php:16
+msgid "Typography Option"
+msgstr ""
+
+#: inc/customizer/customizer-options/typography.php:61
+msgid "Select your appropriate font for the headings."
+msgstr ""
+
+#: inc/customizer/customizer-options/typography.php:73
+msgid "Select your appropriate font for the body."
+msgstr ""
+
+#: inc/customizer/customizer-options/typography.php:80
+msgid "Dynamic Color Options"
+msgstr ""
+
+#: inc/customizer/customizer-options/typography.php:91
+msgid "First Dynamic Color"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:12
+msgid "Header Information"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:28
+msgid "Show / Hide Topbar"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:46
+msgid "Show / Hide Language Translator Option"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:58
+msgid "Topbar Text"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:68
+msgid "My About Us Text"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:77
+msgid "My About Us Page Link"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:87
+msgid "Order Tracking Text"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:97
+msgid "Order Tracking Link"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:107
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:117
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:127
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/customizer/customizer-options/upper-header.php:137
+msgid "Youtube Link"
+msgstr ""
+
+#: inc/customizer/customizer-pro/class-customize.php:81
+msgid "UPGRADE TO PREMIUM"
+msgstr ""
+
+#: inc/customizer/customizer-pro/class-customize.php:82
+msgid "Go Pro"
+msgstr ""
+
+#: inc/customizer/customizer-pro/customizer-upgrade-class.php:93
+msgid "upgrade to pro"
+msgstr ""
+
+#. translators: %s: Daily Archives.
+#: inc/extras.php:55
+msgid "Daily Archives: %s"
+msgstr ""
+
+#. translators: %s: Monthly Archives.
+#: inc/extras.php:59
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#. translators: %s: Yearly Archives.
+#: inc/extras.php:63
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#. translators: %s: Category Archives.
+#: inc/extras.php:67
+msgid "Category Archives: %s"
+msgstr ""
+
+#. translators: %s: Tag Archives.
+#: inc/extras.php:71
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: inc/extras.php:74
+msgid "Error 404"
+msgstr ""
+
+#. translators: %s: Author.
+#: inc/extras.php:78
+msgid "Author: %s"
+msgstr ""
+
+#: inc/extras.php:109
+#: inc/extras.php:112
+msgid "1"
+msgstr ""
+
+#: inc/extras.php:131
+msgid "Archive by category"
+msgstr ""
+
+#: inc/extras.php:137
+msgid "Search results for"
+msgstr ""
+
+#: inc/extras.php:240
+msgid "Posts tagged "
+msgstr ""
+
+#: inc/extras.php:246
+msgid "Articles posted by "
+msgstr ""
+
+#: inc/extras.php:250
+msgid "Error 404 "
+msgstr ""
+
+#: inc/extras.php:255
+msgid "Page"
+msgstr ""
+
+#. translators: %s: Date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: by.
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:51
+#: inc/template-tags.php:58
+msgid ", "
+msgstr ""
+
+#. translators: %1$s: Posted.
+#: inc/template-tags.php:54
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: %1$s: Tagged.
+#: inc/template-tags.php:61
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:68
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:75
+msgid "Edit %s"
+msgstr ""
+
+#: page.php:50
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search..."
+msgstr ""
+
+#. translators: %1$s: Link.
+#: template-parts/content/content-none.php:14
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/content-none.php:16
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:18
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content/content-post-audio.php:58
+#: template-parts/content/content-post-gallery.php:53
+#: template-parts/content/content-post-image.php:62
+#: template-parts/content/content-post-video.php:86
+#: template-parts/content/content-post.php:102
+#: template-parts/content/content-post.php:119
+msgid "HOURS"
+msgstr ""
+
+#: template-parts/content/content-post.php:99
+msgid "By"
+msgstr ""
+
+#: template-parts/sections/section-header.php:40
+msgid "Facebook"
+msgstr ""
+
+#: template-parts/sections/section-header.php:47
+msgid "Twitter"
+msgstr ""
+
+#: template-parts/sections/section-header.php:54
+msgid "Instagram"
+msgstr ""
+
+#: template-parts/sections/section-header.php:61
+msgid "YouTube"
+msgstr ""
+
+#: template-parts/sections/section-header.php:112
+#: template-parts/sections/section-header.php:155
+msgid "All Categories"
+msgstr ""
+
+#: template-parts/sections/section-header.php:147
+msgid "Search for Products"
+msgstr ""
+
+#: template-parts/sections/section-header.php:173
+msgid "No categories found."
+msgstr ""
+
+#: template-parts/sections/section-header.php:192
+#: template-parts/sections/section-header.php:194
+#: template-parts/sections/section-header.php:197
+#: template-parts/sections/section-header.php:199
+msgid "My Account"
+msgstr ""
+
+#: template-parts/sections/section-header.php:208
+#: template-parts/sections/section-header.php:210
+#: template-parts/sections/section-header.php:217
+#: template-parts/sections/section-header.php:219
+msgid "Wishlist"
+msgstr ""
+
+#: template-parts/sections/section-header.php:228
+msgid "Shopping Cart"
+msgstr ""
+
+#: template-parts/sections/section-header.php:228
+#: template-parts/sections/section-header.php:230
+msgid "My Cart"
+msgstr ""
+
+#: template-parts/sections/section-header.php:253
+msgid "Toggle navigation"
+msgstr ""
+
+#: template-parts/sections/section-header.php:257
+msgid "Close navigation"
+msgstr ""
+
+#: template-parts/sections/section-products.php:63
+msgid "Off"
+msgstr ""
+
+#: template-parts/sections/section-slider.php:66
+msgid "Sale Up To"
+msgstr ""
+
+#: template-parts/sections/section-slider.php:74
+msgid "DISCOVER MORE"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Frontpage"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Page Full Width"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Page with Sidebar"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:32
+#: woocommerce/cart/mini-cart.php:147
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:55
+#: woocommerce/cart/mini-cart.php:170
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:99
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:105
+#: woocommerce/cart/mini-cart.php:221
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/content-product.php:34
+msgid "Placeholder Image"
+msgstr ""
+
+#: woocommerce/content-product.php:41
+msgid "Sale"
+msgstr ""
+
+#. translators: %s: Rated 1 out of 5.
+#: woocommerce/content-product.php:60
+msgid "Rated %s out of 5"
+msgstr ""
+
+#. translators: %s: Rated 1 out of 5.
+#: woocommerce/content-product.php:60
+msgid "out of 5"
+msgstr ""

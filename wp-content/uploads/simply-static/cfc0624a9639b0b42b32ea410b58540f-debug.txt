@@ -1,0 +1,606 @@
+[2024-12-16 11:14:47] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2024-12-16 11:14:47] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-12-16 11:14:47] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2024-12-16 11:14:48] [class-ss-archive-creation-job.php:172] Current task: setup
+[2024-12-16 11:14:48] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2024-12-16 11:14:48] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-12-16 11:14:48] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687\
+[2024-12-16 11:14:48] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/Yoka/
+[2024-12-16 11:14:48] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2024-12-16 11:14:48] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-16 11:14:48] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-16 11:14:48] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-12-16 11:14:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/
+[2024-12-16 11:14:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-12-16 11:14:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600ba8ee40b-poOPCk.tmp
+[2024-12-16 11:14:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/?simply_static_page=1
+[2024-12-16 11:14:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/?simply_static_page=1
+[2024-12-16 11:14:51] [class-ss-url-fetcher.php:103] Filesize: 55320 bytes
+[2024-12-16 11:14:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-16 11:14:51] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-12-16 11:14:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600ba8ee40b-poOPCk.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/index.html
+[2024-12-16 11:14:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:159] Adding 31 URLs to the queue
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:55] [class-ss-page.php:119] Checking Content Identical:d723adb395c6e74b73d94aae69fe7fac55d2fe80===. Value: FALSE
+[2024-12-16 11:14:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-12-16 11:14:55] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-16 11:14:55] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-16 11:14:55] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:69] Total pages: 31; Pages remaining: 30
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka
+[2024-12-16 11:14:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 31
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bafb89b5-ZLA66x.tmp
+[2024-12-16 11:14:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka?simply_static_page=2
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka?simply_static_page=2
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:103] Filesize: 350 bytes
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/Yoka/
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-login.php
+[2024-12-16 11:14:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 31
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Yoka/wp-login.php
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/uploads/2024/12/LOGO.png
+[2024-12-16 11:14:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 31
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bafd11a8-RoI1Ni.tmp
+[2024-12-16 11:14:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/uploads/2024/12/LOGO.png?simply_static_page=4
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/uploads/2024/12/LOGO.png?simply_static_page=4
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:103] Filesize: 15366 bytes
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/12/LOGO.png
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bafd11a8-RoI1Ni.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/uploads/2024/12/LOGO.png
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:55] [class-ss-page.php:119] Checking Content Identical:118be57c24a5a3492f803f0e9762836dbcc09289===. Value: FALSE
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-includes/js/jquery/jquery.min.js
+[2024-12-16 11:14:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 31
+[2024-12-16 11:14:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bafea6b8-Gof6UY.tmp
+[2024-12-16 11:14:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-includes/js/jquery/jquery.min.js?simply_static_page=5
+[2024-12-16 11:14:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-includes/js/jquery/jquery.min.js?simply_static_page=5
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bafea6b8-Gof6UY.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-includes/js/jquery/jquery.min.js
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:56] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-16 11:14:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 31
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb08074f-dntX4I.tmp
+[2024-12-16 11:14:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=6
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=6
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-16 11:14:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb08074f-dntX4I.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:56] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+[2024-12-16 11:14:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 31
+[2024-12-16 11:14:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb0f37a7-DH8AxA.tmp
+[2024-12-16 11:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?simply_static_page=7
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?simply_static_page=7
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:103] Filesize: 9636 bytes
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb0f37a7-DH8AxA.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:57] [class-ss-page.php:119] Checking Content Identical:b9c2ed774177fc0fceba5cb58113024b23fe4fb7===. Value: FALSE
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb127f5d-o92FMC.tmp
+[2024-12-16 11:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?simply_static_page=8
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?simply_static_page=8
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:103] Filesize: 4035 bytes
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb127f5d-o92FMC.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:57] [class-ss-page.php:119] Checking Content Identical:be03d1aa839358050674f937277da8941cbcb69a===. Value: FALSE
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb15530b-PCT2ii.tmp
+[2024-12-16 11:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?simply_static_page=9
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?simply_static_page=9
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:103] Filesize: 1720 bytes
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb15530b-PCT2ii.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:57] [class-ss-page.php:119] Checking Content Identical:d3a78cb77ccec297c9d32fee99a2a4761f604a8c===. Value: FALSE
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb176dab-doEcS1.tmp
+[2024-12-16 11:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?simply_static_page=10
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?simply_static_page=10
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:103] Filesize: 3178 bytes
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb176dab-doEcS1.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:57] [class-ss-page.php:119] Checking Content Identical:3e014d2c90093ce476682045c2f61b76840a1c80===. Value: FALSE
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb199969-VQv80T.tmp
+[2024-12-16 11:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?simply_static_page=11
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?simply_static_page=11
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:103] Filesize: 15315 bytes
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb199969-VQv80T.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:57] [class-ss-page.php:119] Checking Content Identical:1474b07026c758629a82df51a5e4fbb7abf531df===. Value: FALSE
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb1bfcef-4huCJF.tmp
+[2024-12-16 11:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?simply_static_page=12
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?simply_static_page=12
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:103] Filesize: 2356 bytes
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb1bfcef-4huCJF.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:57] [class-ss-page.php:119] Checking Content Identical:e8b296c630f6a246a051e71b463e00c66e43876d===. Value: FALSE
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/index.php/feed/
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Yoka/index.php/feed/
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/index.php/comments/feed/
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Yoka/index.php/comments/feed/
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-includes/blocks/cover/style.min.css
+[2024-12-16 11:14:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 31
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb1e3570-2HAoSe.tmp
+[2024-12-16 11:14:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-includes/blocks/cover/style.min.css?simply_static_page=15
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-includes/blocks/cover/style.min.css?simply_static_page=15
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:103] Filesize: 18099 bytes
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/cover/style.min.css
+[2024-12-16 11:14:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb1e3570-2HAoSe.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-includes/blocks/cover/style.min.css
+[2024-12-16 11:14:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:58] [class-ss-page.php:119] Checking Content Identical:c66e72e25362483017fa1c49bcae6e4087fe47c7===. Value: FALSE
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css
+[2024-12-16 11:14:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 31
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb20c757-WKckiQ.tmp
+[2024-12-16 11:14:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?simply_static_page=16
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?simply_static_page=16
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:103] Filesize: 12815 bytes
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb20c757-WKckiQ.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:58] [class-ss-page.php:119] Checking Content Identical:1da1c964a15e67601d0b48360007a57c67b3e7bd===. Value: FALSE
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/client/blocks/coming-soon.css
+[2024-12-16 11:14:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 31
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb228b3f-cfKoWM.tmp
+[2024-12-16 11:14:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/client/blocks/coming-soon.css?simply_static_page=17
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/client/blocks/coming-soon.css?simply_static_page=17
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:103] Filesize: 6409 bytes
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/client/blocks/coming-soon.css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb228b3f-cfKoWM.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/client/blocks/coming-soon.css
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:58] [class-ss-page.php:119] Checking Content Identical:951941a16124c2996ee690131041fa2cb503a67c===. Value: FALSE
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+[2024-12-16 11:14:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 31
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb23ad22-UHb8dZ.tmp
+[2024-12-16 11:14:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?simply_static_page=18
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?simply_static_page=18
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:103] Filesize: 17688 bytes
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb23ad22-UHb8dZ.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:58] [class-ss-page.php:119] Checking Content Identical:8da5b79f8c3f9463a3ebbe2b021ce430f2386ee8===. Value: FALSE
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+[2024-12-16 11:14:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 31
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb258eb1-7vqyiI.tmp
+[2024-12-16 11:14:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?simply_static_page=19
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?simply_static_page=19
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:103] Filesize: 7427 bytes
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb258eb1-7vqyiI.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:58] [class-ss-page.php:119] Checking Content Identical:724c1d536322e52cdd01f0f665358ce9327e7fed===. Value: FALSE
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce.css
+[2024-12-16 11:14:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 31
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb26ce35-xDmRUG.tmp
+[2024-12-16 11:14:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce.css?simply_static_page=20
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce.css?simply_static_page=20
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:103] Filesize: 82651 bytes
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/css/woocommerce.css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb26ce35-xDmRUG.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/css/woocommerce.css
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:159] Adding 12 URLs to the queue
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:58] [class-ss-page.php:119] Checking Content Identical:af8ed8d212eb3cf5ad411ebd6867e95f16fe44c8===. Value: FALSE
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-blocktheme.css
+[2024-12-16 11:14:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 31
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb2c5d38-a2kd1q.tmp
+[2024-12-16 11:14:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-blocktheme.css?simply_static_page=21
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/css/woocommerce-blocktheme.css?simply_static_page=21
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:103] Filesize: 8989 bytes
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/css/woocommerce-blocktheme.css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb2c5d38-a2kd1q.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/css/woocommerce-blocktheme.css
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:58] [class-ss-page.php:119] Checking Content Identical:9275c10cb4bd2ac77e5ba333a2729136b122322b===. Value: FALSE
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/themes/decorative/style.css
+[2024-12-16 11:14:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 31
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb2ea2f8-eTZ9xq.tmp
+[2024-12-16 11:14:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/themes/decorative/style.css?simply_static_page=22
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/themes/decorative/style.css?simply_static_page=22
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:103] Filesize: 12163 bytes
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/decorative/style.css
+[2024-12-16 11:14:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb2ea2f8-eTZ9xq.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/themes/decorative/style.css
+[2024-12-16 11:14:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:384a55550ef45ca241708406d766975528ef8517===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/index.php/wp-json/
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Yoka/index.php/wp-json/
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/xmlrpc.php
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/Yoka/xmlrpc.php
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Regular.ttf
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb31b559-D0rvoN.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Regular.ttf?simply_static_page=25
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Regular.ttf?simply_static_page=25
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:103] Filesize: 163388 bytes
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/decorative/assets/fonts/raleway/Raleway-Regular.ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb31b559-D0rvoN.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Regular.ttf
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:c01aaff04ead4a08b89bcb81d3d3d954345eb67f===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Medium.ttf
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb32e561-GiScqC.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Medium.ttf?simply_static_page=26
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Medium.ttf?simply_static_page=26
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:103] Filesize: 163392 bytes
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/decorative/assets/fonts/raleway/Raleway-Medium.ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb32e561-GiScqC.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Medium.ttf
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:9d35f805e98f95e72f5d0a4ced7397584d7349be===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-SemiBold.ttf
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb33f6a7-4PK3nV.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-SemiBold.ttf?simply_static_page=27
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-SemiBold.ttf?simply_static_page=27
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:103] Filesize: 163388 bytes
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/decorative/assets/fonts/raleway/Raleway-SemiBold.ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb33f6a7-4PK3nV.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/themes/decorative/assets/fonts/raleway/Raleway-SemiBold.ttf
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:75f4fca0d4d80e2b9a62d3283261e933786fb8c1===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Bold.ttf
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb38acb6-xrf1Iz.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Bold.ttf?simply_static_page=28
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Bold.ttf?simply_static_page=28
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:103] Filesize: 163276 bytes
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/decorative/assets/fonts/raleway/Raleway-Bold.ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb38acb6-xrf1Iz.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/themes/decorative/assets/fonts/raleway/Raleway-Bold.ttf
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:fd799b6fb4aff1a9402e071ab02d1ddea731b868===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-ExtraBold.ttf
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb39db49-cc44WW.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-ExtraBold.ttf?simply_static_page=29
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/themes/decorative/assets/fonts/raleway/Raleway-ExtraBold.ttf?simply_static_page=29
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:103] Filesize: 163384 bytes
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/decorative/assets/fonts/raleway/Raleway-ExtraBold.ttf
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb39db49-cc44WW.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/themes/decorative/assets/fonts/raleway/Raleway-ExtraBold.ttf
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:1c92715c134738f2956bf758181522243c7586dd===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb3b1a60-bUENCu.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2?simply_static_page=30
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2?simply_static_page=30
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb3b1a60-bUENCu.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 31
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb3ca16a-9SwWZ5.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2?simply_static_page=31
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2?simply_static_page=31
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb3ca16a-9SwWZ5.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:14:59] [class-ss-page.php:119] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-12-16 11:14:59] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 31 pages/files
+[2024-12-16 11:14:59] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-16 11:14:59] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-16 11:14:59] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 12
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff2
+[2024-12-16 11:14:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 43
+[2024-12-16 11:14:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb3e6e96-cvRCez.tmp
+[2024-12-16 11:14:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff2?simply_static_page=32
+[2024-12-16 11:14:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff2?simply_static_page=32
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 6488 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff2
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb3e6e96-cvRCez.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff2
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:5e86cff781ce28bbc3a687e1cb7d524f39da9a6a===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb409df0-wwdK66.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff?simply_static_page=33
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff?simply_static_page=33
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 8084 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb409df0-wwdK66.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:5f32d2683d302b91c1680823b18048727399f0d5===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb4200ab-oJ5tB7.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf?simply_static_page=34
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf?simply_static_page=34
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 14748 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb4200ab-oJ5tB7.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:20be1339fd27175dc7337e4005301944263284ee===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb435b7c-kjc0gM.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/loader.svg?simply_static_page=35
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/loader.svg?simply_static_page=35
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 158 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb435b7c-kjc0gM.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/loader.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:7834c12751ee27c089c4d89e996498c94c59656a===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb448776-Za40li.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg?simply_static_page=36
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg?simply_static_page=36
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 1359 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb448776-Za40li.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:c01f53e7d1433fbefae2b5232b4e1e64a4c8a2d7===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb45c44c-giEXLD.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg?simply_static_page=37
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg?simply_static_page=37
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 4634 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb45c44c-giEXLD.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:dcc926b607db825f3b00b3b74b7edad851aed3ec===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb470402-U7kapa.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg?simply_static_page=38
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg?simply_static_page=38
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 3110 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb470402-U7kapa.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/laser.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:f4f9a9a3f203ebbb34440107f93de3541eeb48b6===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb48912b-AIk9TK.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg?simply_static_page=39
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg?simply_static_page=39
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 804 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb48912b-AIk9TK.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/diners.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:ec7ab76eb57ee93295620a53c22801ffdcd3f65c===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb49eb59-LzCmRd.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg?simply_static_page=40
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg?simply_static_page=40
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 6797 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb49eb59-LzCmRd.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/maestro.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:33b1f8f6275d6b019cf8745bb87fca4fb6d42255===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb4b4d46-m4FlDH.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg?simply_static_page=41
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg?simply_static_page=41
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 2800 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb4b4d46-m4FlDH.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/jcb.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:82c375044917fadcaf79103b964596d60d761bab===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb4caa58-mU2eoL.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg?simply_static_page=42
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg?simply_static_page=42
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 4662 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb4caa58-mU2eoL.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:00] [class-ss-page.php:119] Checking Content Identical:a116f3f8f551684a16418b9c7972f84a2e920cf6===. Value: FALSE
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:72] URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg
+[2024-12-16 11:15:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 43
+[2024-12-16 11:15:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb4e52f0-TXsZOL.tmp
+[2024-12-16 11:15:00] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg?simply_static_page=43
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg?simply_static_page=43
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:103] Filesize: 2185 bytes
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg
+[2024-12-16 11:15:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb4e52f0-TXsZOL.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg
+[2024-12-16 11:15:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-16 11:15:01] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-16 11:15:01] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-16 11:15:01] [class-ss-page.php:119] Checking Content Identical:9b88659c2e0f49333b7037489da319e07576f7e8===. Value: FALSE
+[2024-12-16 11:15:01] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 31 of 43 pages/files
+[2024-12-16 11:15:01] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-16 11:15:01] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-16 11:15:01] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-16 11:15:01] [class-ss-fetch-urls-task.php:69] Total pages: 43; Pages remaining: 0
+[2024-12-16 11:15:01] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 43 of 43 pages/files
+[2024-12-16 11:15:01] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2024-12-16 11:15:01] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2024-12-16 11:15:01] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2024-12-16 11:15:01] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-12-16 11:15:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\mm541\AppData\Local\Temp/67600bb50f977-26EXiH.tmp
+[2024-12-16 11:15:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/Yoka/1734347702?simply_static_page=0
+[2024-12-16 11:15:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/Yoka/1734347702?simply_static_page=0
+[2024-12-16 11:15:02] [class-ss-url-fetcher.php:103] Filesize: 55264 bytes
+[2024-12-16 11:15:02] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-12-16 11:15:02] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-12-16 11:15:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\mm541\AppData\Local\Temp/67600bb50f977-26EXiH.tmp to C:\xampp\htdocs\Yoka/wp-content/uploads\simply-static\temp-files/simply-static-1-1734347687\404/index.html
+[2024-12-16 11:15:02] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-12-16 11:15:04] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-12-16 11:15:04] [class-ss-page.php:119] Checking Content Identical:93e689fa0cc1fd04e3c6fc5634081f62648777c9===. Value: FALSE
+[2024-12-16 11:15:04] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2024-12-16 11:15:04] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-12-16 11:15:04] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-12-16 11:15:04] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/Yoka/wp-content/uploads/simply-static/temp-files/simply-static-1-1734347687.zip">Click here to download</a>
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2024-12-16 11:15:04] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-12-16 11:15:04] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:244] Completing the job
+[2024-12-16 11:15:04] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:17

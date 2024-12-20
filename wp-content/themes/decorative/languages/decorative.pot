@@ -1,0 +1,335 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Decorative\n"
+"POT-Creation-Date: 2023-10-10 17:18+0530\n"
+"PO-Revision-Date: 2023-10-10 17:18+0530\n"
+"Last-Translator: \n"
+"Language-Team: Flythemes Team <support@flythemes.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;esc_attr_e;esc_html_e;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: block-patterns.php:17
+msgid "Decorative"
+msgstr ""
+
+#: inc/about.php:48
+msgid "Free Full Site Editing WordPress Theme"
+msgstr ""
+
+#: inc/about.php:59
+msgid "Getting Started with Decorative!"
+msgstr ""
+
+#: inc/about.php:60
+msgid ""
+"Awesome! Decorative has been installed and activated successfully. Now, you "
+"can start building your dream website with a wide range of highly-"
+"customizable block patterns, templates, and template parts available in this "
+"astounding theme."
+msgstr ""
+
+#: inc/about.php:66
+msgid "More Features with Decorative Pro Theme"
+msgstr ""
+
+#: inc/about.php:67
+msgid ""
+"To get more features and unique home page sections, we recommend you "
+"activate the Decorative Pro. With the pro theme installed, get more options "
+"like google fonts, colors, sliders, page template, shortcodes and more."
+msgstr ""
+
+#: inc/about.php:68
+msgid "Buy Decorative Pro"
+msgstr ""
+
+#: inc/about.php:77
+msgid "Important Links"
+msgstr ""
+
+#: inc/about.php:78
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about.php:79
+msgid "View Demo"
+msgstr ""
+
+#: inc/about.php:80
+msgid "Support"
+msgstr ""
+
+#: inc/about.php:87
+msgid "Leave us a review"
+msgstr ""
+
+#: inc/about.php:88
+msgid ""
+"Loved Decorative? Feel free to leave your feedback. Your opinion helps us "
+"reach more audiences!"
+msgstr ""
+
+#: inc/about.php:89
+msgid "Review"
+msgstr ""
+
+#: patterns/404.php:12
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:16
+msgid "Page not found!"
+msgstr ""
+
+#: patterns/404.php:20
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr ""
+
+#: patterns/404.php:25
+msgid "Return Home"
+msgstr ""
+
+#: patterns/archive.php:54
+msgid "Sorry, No posts exists..."
+msgstr ""
+
+#: patterns/archive.php:65
+#: patterns/single.php:63
+msgid "Search"
+msgstr ""
+
+#: patterns/archive.php:75
+#: patterns/single.php:73
+msgid "Popular Posts"
+msgstr ""
+
+#: patterns/archive.php:99
+#: patterns/single.php:97
+msgid "Categories"
+msgstr ""
+
+#: patterns/archive.php:109
+#: patterns/single.php:107
+msgid "Archives"
+msgstr ""
+
+#: patterns/archive.php:119
+#: patterns/single.php:117
+msgid "Tags"
+msgstr ""
+
+#: patterns/banner.php:15
+msgid "Decorative for Interior"
+msgstr ""
+
+#: patterns/banner.php:19
+msgid "Create a home that defines who you are"
+msgstr ""
+
+#: patterns/banner.php:23
+msgid ""
+"Pellentesque ultrices, ligula sit amet dictum vehicula, odio erat venenatis "
+"odio, ac placerat nisi risus a nisi. In et mi et ex ornare malesuada."
+msgstr ""
+
+#: patterns/banner.php:28
+msgid "Start Your Project"
+msgstr ""
+
+#: patterns/calltoaction.php:12
+msgid "Have a Project in mind?"
+msgstr ""
+
+#: patterns/calltoaction.php:16
+msgid ""
+"Vivamus vel tortor et nibh eleifend porta. Suspendisse potenti. Vivamus "
+"elementum tincidunt urna nec hendrerit. Suspendisse egestas purus ut dolor "
+"sagittis pulvinar. Duis aliquet odio vel neque malesuada, sed eleifend quam "
+"rhoncus. Cras in bibendum urna."
+msgstr ""
+
+#: patterns/calltoaction.php:21
+msgid "Reach out us"
+msgstr ""
+
+#: patterns/features.php:14
+msgid "Why Decorative"
+msgstr ""
+
+#: patterns/features.php:19
+msgid "We at Decorative"
+msgstr ""
+
+#: patterns/features.php:42
+msgid "Creative"
+msgstr ""
+
+#: patterns/features.php:46
+#: patterns/features.php:70
+#: patterns/features.php:94
+#: patterns/features.php:118
+#: patterns/services.php:46
+#: patterns/services.php:78
+#: patterns/services.php:110
+#: patterns/services.php:142
+msgid ""
+"Curabitur et ullamcorper nunc. Proin porttitor dignissim justo. Duis aliquet "
+"turpis mattis ullamcorper dapibus."
+msgstr ""
+
+#: patterns/features.php:66
+msgid "Know How"
+msgstr ""
+
+#: patterns/features.php:90
+msgid "Caring"
+msgstr ""
+
+#: patterns/features.php:114
+msgid "Collaboration"
+msgstr ""
+
+#: patterns/footer.php:21
+msgid ""
+"Vivamus id interdum magna. Vestibulum id metus libero. Etiam accumsan risus "
+"in libero pretium vulputate. Pellentesque id ipsum congue, congue ipsum in, "
+"sodales augue."
+msgstr ""
+
+#: patterns/footer.php:38
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer.php:43
+msgid "Home"
+msgstr ""
+
+#: patterns/footer.php:47
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer.php:53
+msgid "Our Services"
+msgstr ""
+
+#: patterns/footer.php:57
+msgid "Portfolio"
+msgstr ""
+
+#: patterns/footer.php:63
+msgid "Shop"
+msgstr ""
+
+#: patterns/footer.php:67
+msgid "Blog"
+msgstr ""
+
+#: patterns/footer.php:73
+#: patterns/footer.php:85
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer.php:77
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/footer.php:94
+msgid "1/183 Coogee Bay Rd, Sydney, New South Wales, Austrailia."
+msgstr ""
+
+#: patterns/footer.php:104
+msgid "(02) 8021 7708"
+msgstr ""
+
+#: patterns/footer.php:114
+#: patterns/header.php:31
+msgid "example@example.com"
+msgstr ""
+
+#: patterns/footer.php:124
+msgid "Mon-Sat : 10:00 AM - 5:00PM"
+msgstr ""
+
+#: patterns/footer.php:137
+msgid "© Copyright 2023. All Rights Reserved."
+msgstr ""
+
+#: patterns/footer.php:141
+msgid "Proudly powered by"
+msgstr ""
+
+#: patterns/footer.php:141
+msgid "Fly Themes"
+msgstr ""
+
+#: patterns/footer.php:141
+msgid "and"
+msgstr ""
+
+#: patterns/footer.php:141
+msgid "https://wordpress.org"
+msgstr ""
+
+#: patterns/footer.php:141
+msgid "WordPress"
+msgstr ""
+
+#: patterns/header.php:19
+msgid "1/183 Coogee Bay Rd, Sydney, NSW, Austrailia."
+msgstr ""
+
+#: patterns/header.php:43
+msgid "702-539-4046"
+msgstr ""
+
+#: patterns/latest-news.php:14
+msgid "Our Blog"
+msgstr ""
+
+#: patterns/latest-news.php:19
+msgid "Stay Updated With Us"
+msgstr ""
+
+#: patterns/latest-news.php:23
+msgid ""
+"Vestibulum commodo id mauris ut vulputate. Duis a libero posuere, dignissim "
+"felis malesuada, tincidunt felis. Mauris eu risus suscipit, euismod neque "
+"ut, maximus arcu."
+msgstr ""
+
+#: patterns/services.php:14
+msgid "Best In Below"
+msgstr ""
+
+#: patterns/services.php:19
+msgid "Services"
+msgstr ""
+
+#: patterns/services.php:42
+msgid "Interior Design"
+msgstr ""
+
+#: patterns/services.php:53
+#: patterns/services.php:85
+#: patterns/services.php:117
+#: patterns/services.php:149
+msgid "Explore More"
+msgstr ""
+
+#: patterns/services.php:74
+msgid "Floor Plan Design"
+msgstr ""
+
+#: patterns/services.php:106
+msgid "Architecture"
+msgstr ""
+
+#: patterns/services.php:138
+msgid "Furniture Design"
+msgstr ""

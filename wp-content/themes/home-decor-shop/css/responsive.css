@@ -1,0 +1,115 @@
+@media only screen and (max-width:1200px) and (min-width:991px) {
+	.sidebar .widget table tbody a {
+		padding: 1px;
+		margin-left: -10px!important;
+	}
+	.footer-sidebar .widget table tbody a {
+		padding: 2px;
+		margin-left: -7px;
+	}
+	.banner_content_box1, .banner_content_box2 {
+	    left: 15%;
+	    right: 25%;
+	}
+}
+
+@media screen and (min-width:1700px) and (max-width:1900px){
+    .container{
+        max-width: 1520px;
+    }
+}
+@media screen and (min-width:1920px) {
+    .container{
+        max-width: 1620px;
+    }
+}
+
+/* Mobile Layout: 320px */
+
+@media only screen and (max-width:991px) {
+    .navbar-area.header-fixed {
+        position: static;
+    }
+    .post-thumbnail img {
+        width: 100%;
+    }
+    #blog-content article.blog-post:last-child {
+        margin-bottom: 80px;
+    }
+    /* Blog page */
+    .post-new-comment,
+    ul.meta-info,
+    #blog-content .post-content,
+    .post-comment-area .media {
+        padding: 30px 30px;
+    }
+    ul.meta-info li {
+        margin-bottom: 10px;
+    }
+    #blog-content ul.meta-info {
+        padding: 15px 30px;
+    }
+    .single-blog-area .tag-share {
+        padding: 10px 30px;
+    }
+    #blog-content ul.meta-info li {
+        margin-right: 10px;
+    }
+    .scrollup {
+        right: 5px;
+        bottom: 5px;
+    }
+	.slider_content_box {
+	    left: 15%;
+	    right: 35%;
+	}
+	.banner_content_box1, .banner_content_box2 {
+	    left: 15%;
+	    right: 15%;
+	}
+}
+
+/* Wide Mobile Layout: 480px */
+
+@media only screen and (max-width:767px) {
+    #footer-widgets p {
+        margin-bottom: 24px;
+    }
+    .container.inner-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    ul.meta-info,
+    #blog-content .post-content {
+        padding: 30px 15px;
+    }
+    #blog-content .featured-img .single-meta-box {
+        top: 25%;
+        transform: none;
+        left: 0%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:720px) {	
+	.comment-author.vcard {
+        display: grid;
+    }	
+	.post-content table {
+		overflow-x: auto;
+		display: flex;
+	}	
+	#header-top{
+		text-align: center;
+	}
+	#header-top ul li{
+		border: none;
+	}
+	#header-top ul li{
+		padding: 5px;
+	}
+	.slider_content_box {
+	    left: 10%;
+	    right: 10%;
+	}
+}

@@ -1,0 +1,199 @@
+<wpml-config>
+	<custom-types>
+        <custom-type translate="1">shopcozi_mega_menu</custom-type>
+        <custom-type translate="1">sc_footer_block</custom-type>
+        <custom-type translate="1">sc_custom_block</custom-type>
+        <custom-type translate="1">sc_size_chart</custom-type>
+        <custom-type translate="1">product</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1">sc_product_brand</taxonomy>
+        <taxonomy translate="1">product_cat</taxonomy>
+    </taxonomies>
+	<admin-texts>
+	  <key name="current_theme"/>
+	  <key name="theme_mods_shopcozi-pro">
+	  	<key name="0"/>
+	  	<key name="nav_menu_locations"/>
+	  	<key name="shopcozi_topbar_content">
+	  		<key name="*">
+	  			<key name="text"/>
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_topbar_icons">
+	  		<key name="*">
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_nav_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="text"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_nav_wishlist_title"/>
+	  	<key name="shopcozi_nav_compare_title"/>
+	  	<key name="shopcozi_nav_btn_label"/>
+	  	<key name="shopcozi_nav_btn_link"/>
+	  	<key name="shopcozi_popup_title"/>
+	  	<key name="shopcozi_popup_desc"/>
+	  	<key name="shopcozi_popup_shortcode"/>
+	  	<key name="shopcozi_archive_readmore_label"/>
+	  	<key name="shopcozi_woo_new_label_text"/>
+	  	<key name="shopcozi_woo_sale_label_text"/>
+	  	<key name="shopcozi_woo_feature_label_text"/>
+	  	<key name="shopcozi_woo_out_of_stock_label_text"/>
+	  	<key name="shopcozi_prod_custom_tab_title"/>
+	  	<key name="shopcozi_prod_grouped_product_heading"/>
+	  	<key name="shopcozi_prod_bestsellers_heading"/>
+	  	<key name="shopcozi_footer_above_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_footer_bottom_title"/>
+	  	<key name="shopcozi_footer_bottom_desc"/>
+	  	<key name="shopcozi_footer_bottom_link"/>
+	  	<key name="shopcozi_footer_bottom_right_title"/>
+	  	<key name="shopcozi_footer_bottom_right_btn1_lable"/>
+	  	<key name="shopcozi_footer_bottom_right_btn1_link"/>
+	  	<key name="shopcozi_footer_bottom_right_btn2_lable"/>
+	  	<key name="shopcozi_footer_bottom_right_btn2_link"/>
+	  	<key name="shopcozi_footer_copyright"/>
+	  	<key name="shopcozi_footer_copyright_right_title"/>
+	  	<key name="shopcozi_footer_copyright_right_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_slider_content">
+	  		<key name="*">
+	  			<key name="subtitle"/>
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  			<key name="button1_label"/>
+	  			<key name="button1_link"/>
+	  			<key name="button2_label"/>
+	  			<key name="button2_link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_slider_r_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  			<key name="button_label"/>
+	  			<key name="button_link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_service_title"/>
+	  	<key name="shopcozi_service_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_p_cat_title"/>
+	  	<key name="shopcozi_p_recent_title"/>
+	  	<key name="shopcozi_p_featured_title"/>
+	  	<key name="shopcozi_p_selling_title"/>
+	  	<key name="shopcozi_offer_title"/>
+	  	<key name="shopcozi_offer_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  			<key name="discount"/>
+	  			<key name="code"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_banner_title"/>
+	  	<key name="shopcozi_banner_content">
+	  		<key name="*">
+	  			<key name="subtitle"/>
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  			<key name="button_label"/>
+	  			<key name="button_link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_testimonial_title"/>
+	  	<key name="shopcozi_testimonial_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="designation"/>
+	  			<key name="desc"/>
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_sale_subtitle"/>
+	  	<key name="shopcozi_sale_title"/>
+	  	<key name="shopcozi_sale_desc"/>
+	  	<key name="shopcozi_sale_price"/>
+	  	<key name="shopcozi_sale_btn_lable"/>
+	  	<key name="shopcozi_sale_btn_link"/>
+	  	<key name="shopcozi_news_title"/>
+	  	<key name="shopcozi_client_title"/>
+	  	<key name="shopcozi_client_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_cta_title"/>
+	  	<key name="shopcozi_cta_desc"/>
+	  	<key name="shopcozi_cta_btn1_label"/>
+	  	<key name="shopcozi_cta_btn1_link"/>
+	  	<key name="shopcozi_cta_btn2_label"/>
+	  	<key name="shopcozi_cta_btn2_link"/>
+	  	<key name="shopcozi_gallerypg_content">
+	  		<key name="*">
+	  			<key name="subtitle"/>
+	  			<key name="title"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozy_faqpg_title"/>
+	  	<key name="shopcozi_faqpg_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_faqpg_more_content"/>
+	  	<key name="shopcozi_contactpg_info_title"/>
+	  	<key name="shopcozi_contactpg_info_desc"/>
+	  	<key name="shopcozi_contactpg_info_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_contactpg_form_title"/>
+	  	<key name="shopcozi_contactpg_form_shortcode"/>
+	  	<key name="shopcozi_contactpg_bottom_content">
+	  		<key name="*">
+	  			<key name="title"/>
+	  			<key name="desc"/>
+	  			<key name="more_content"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_error_code"/>
+	  	<key name="shopcozi_error_title"/>
+	  	<key name="shopcozi_error_desc"/>
+	  	<key name="shopcozi_error_btn_label"/>
+	  	<key name="shopcozi_comingsoon_title"/>
+	  	<key name="shopcozi_comingsoon_desc"/>
+	  	<key name="shopcozi_comingsoon_form_title"/>
+	  	<key name="shopcozi_comingsoon_form_shortcode"/>
+	  	<key name="shopcozi_comingsoon_social_title"/>
+	  	<key name="shopcozi_comingsoon_social_content">
+	  		<key name="*">
+	  			<key name="link"/>
+	  		</key>
+	  	</key>
+	  	<key name="shopcozi_comingsoon_copyright"/>
+	  </key>	  
+	</admin-texts>
+</wpml-config>

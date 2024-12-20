@@ -1,0 +1,40 @@
+/* Admin notice css */
+
+.shopcozi-getting-started-notice{
+	padding: 20px 10px;
+	display: flex;
+	align-items: center;
+}
+
+.shopcozi-theme-screenshot{
+	margin-right: 20px;
+}
+
+.shopcozi-theme-screenshot img {
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.wp-core-ui .button-danger{
+	background-color: #d51111;
+	border-color: #d51111;
+	color: #ffffff;
+}
+
+.wp-core-ui .button-danger.focus, 
+.wp-core-ui .button-danger.hover, 
+.wp-core-ui .button-danger:focus, 
+.wp-core-ui .button-danger:hover{
+	background-color: #b70e0e;
+	border-color: #b70e0e;
+	color: #ffffff;
+}
+
+.shopcozi-push-down {
+    padding-top: 15px;
+    display: inline-block;
+    padding-left: 8px;
+}

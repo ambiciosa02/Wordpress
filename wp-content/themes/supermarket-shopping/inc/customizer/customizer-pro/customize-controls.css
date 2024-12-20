@@ -1,0 +1,27 @@
+.control-section-supermarket-shopping h3 {
+	margin: 0;
+	padding: 1px 0;
+	border: 0;
+	position: relative;
+}
+.control-section-supermarket-shopping h3 a {
+	background: #fff;
+	display: block;
+	text-decoration: none;
+}
+li#accordion-section-supermarket-shopping a {
+   	color: #fff;
+    position: absolute;
+    right: 10px;
+    padding: 4px 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
+    top: 49%;
+    background: #78B85D;
+    margin-top: -15px;
+    font-weight: 400;
+}
+#accordion-section-themes+.control-section {
+    margin-bottom: 17px;
+}

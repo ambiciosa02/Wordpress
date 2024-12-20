@@ -1,0 +1,463 @@
+/*
+Theme Name: Own Shop Trend
+Theme URI: https://spiraclethemes.com/own-shop-trend-theme/
+Author: Spiracle Themes
+Author URI: https://www.spiraclethemes.com
+Description: Own Shop Trend is a sleek, responsive child theme designed for seamless WooCommerce integration. Built on the Own Shop Ecommerce framework, it offers customizable layouts, enhanced performance, and compatibility with all major plugins, ensuring a flexible and user-friendly shopping experience for both store owners and customers. More Info here: https://spiraclethemes.com/own-shop-trend-theme/
+Version: 1.0
+Template: own-shop
+Tested up to: 6.6
+Requires PHP: 5.6
+Requires at least: 4.7
+Tags: e-commerce, blog, custom-colors, sticky-post, one-column, custom-logo, custom-menu, entertainment, featured-images, full-width-template, left-sidebar, right-sidebar, rtl-language-support, theme-options, threaded-comments, translation-ready, two-columns, footer-widgets
+License: GNU General Public License v3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: own-shop-trend
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+====================================================================
+  General
+====================================================================
+*/
+
+body, html {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px !important;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    margin: 0 0 0.5em;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.os-container {
+    position: inherit;
+}
+
+
+
+/**
+====================================================================
+  Header
+====================================================================
+*/
+
+#topsidebar {
+    text-align: center;
+    background: #f5f5f5;
+    padding: 10px;
+}
+
+#topsidebar p {
+    margin: 0;
+}
+
+#topsidebar button {
+    padding: 0 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+header.theme-menu-wrapper {
+    box-shadow: -20px -17px 20px 0px;
+    -webkit-box-shadow: -20px -17px 20px 0px;
+    -moz-box-shadow: -20px -17px 20px 0px;
+}
+
+header select.category-dropdown {
+    display: none;
+}
+
+.woocommerce-product-search button {
+    background: none !important;
+}
+
+.style1 h1.site-title {
+    padding: 0;
+    margin-bottom: 0 !important;
+    font-weight: 500;
+}
+
+.style1 #header-main {
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+header button[type=submit] {
+    padding: 0 !important;
+}
+
+header button[type=submit] i {
+    font-size: 30px;
+    color: #d6d6d6;
+    margin-left: -54px;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+header .header-product-search {
+    text-align: left;
+}
+
+header button[type="submit"] i {
+    vertical-align: bottom;
+}
+
+header .search-field {
+    height: 50px;
+    max-width: 550px !important;
+}
+
+header span.caret {
+    display: none;
+}
+
+.style1 .top-menu-wrapper {
+    width: 100%;
+    float: none;
+    margin-bottom: 5px;
+}
+
+header .header-woo-links {
+    border-right: 2px solid #d0d0d0;
+}
+
+header .header-woo-links {
+    margin-right: 0;
+    padding-right: 35px;
+}
+
+header .custom-menu-wrapper {
+    background: none;
+    color: #000;
+    border-right: 2px solid #d0d0d0;
+    border-radius: 0;
+    height: 35px;
+    margin-top: 8px;
+}
+
+.custom-menu-wrapper a.title {
+    color: #000;
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+.custom-menu-wrapper .navbar-toggle {
+    padding: 0;
+}
+
+.header-woo-links a {
+    color: #000;
+}
+
+span.cart-details label.amount {
+    font-weight: 600;
+}
+
+.custom-menu-wrapper a.title>i {
+    padding-right: 15px;
+    padding-left: 0;
+    font-size: 25px;
+    vertical-align: bottom;
+}
+
+.header-product-custom-menu ul li a {
+    padding: 12px 20px;
+}
+
+.header-product-custom-menu .custom-menu-product {
+    width: 320px;
+    margin-top: 20px;
+}
+
+.style1 .header-wrapper .logo {
+    float: none;
+    text-align: center;
+    width: auto;
+}
+
+.woo-menu-links {
+    float: none;
+    display: inline-block;
+}
+
+.style1 .top-menu, .style1 .topbar-menu {
+    text-align: center;
+}
+
+
+/**
+====================================================================
+  Navigation
+====================================================================
+*/
+
+.top-menu .navigation > li a {
+    color: #555;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header-woo-links a,
+a.cart-content,
+.header-woo-links a:hover,
+a.cart-content:hover {
+    text-decoration: none;
+}
+
+header .header-woo-links {
+    border-right: 2px solid #d0d0d0;
+    border-left: 2px solid #d0d0d0;
+    padding-left: 25px;
+}
+
+
+/**
+====================================================================
+  Top bar
+====================================================================
+*/
+
+.top-bar-menu li a,
+.top-bar-menu li a:hover {
+    text-decoration: none;
+}
+
+
+/**
+====================================================================
+  Menu Cart
+====================================================================
+*/
+
+.site-header-cart:focus-within .widget_shopping_cart, 
+.site-header-cart:hover .widget_shopping_cart {
+    right: 60px;
+    left: auto;
+}
+
+
+/**
+====================================================================
+  Blog
+====================================================================
+*/
+
+.blog aside article {
+    width: 100%;
+}
+
+.archive aside li, .blog aside li, .page aside li, .single aside li {
+    line-height: 1.5;
+}
+
+aside li article {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+aside > div:first-child {
+    margin-top: 0;
+}
+
+.wp-block-search .wp-block-search__label {
+    display: none;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+    list-style-type: none;
+}
+
+.recent-blog-widget .blog-post h3 {
+    font-size: 18px !important;
+    color: #000;
+}
+
+
+/**
+====================================================================
+  Footer
+====================================================================
+*/
+
+#menu-social-menu li a {
+    text-decoration: none;
+}
+
+
+/**
+====================================================================
+  MISC
+====================================================================
+*/
+
+.page-content-area {
+    overflow: hidden;
+}
+
+.elementor-editor-active .page-content-area {
+    overflow: unset !important;
+}
+
+footer .copyrights {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.woocommerce-demo-store.has-topbar #topsidebar {
+    margin-top: 45px;
+}
+
+.woocommerce-demo-store.no-topbar header {
+    margin-top: 45px;
+}
+
+a.wc-block-cart__submit-button,
+a.wc-block-cart__submit-button:hover {
+    border: 1px solid #555;
+    text-decoration: none;
+}
+
+#wc-block-components-totals-coupon__input-0 {
+    border-radius: 0;
+    height: 55px;
+}
+
+.blog article h2 > a,
+.single-post article h1 > a {
+    text-decoration: none;
+}
+
+#secondary li a {
+    text-decoration: none;
+}
+
+.archive article .content h5 a {
+    text-decoration: none;
+}
+
+
+/**
+====================================================================
+  Responsive Devices
+====================================================================
+*/
+
+
+@media only screen and (max-width: 991px) {
+
+    .style1 .header-wrapper .logo img {
+        width: 80% !important;
+    }
+
+    .style1 .top-menu-wrapper {
+        width: auto;
+        float: right;
+    }
+
+    header .header-product-menu {
+        display: none;
+    }
+
+    .os-container .header-product-menu,
+    .os-container .header-menu-wrapper {
+       display: none;
+    }
+
+    .hd-bar .side-menu ul li a {
+        text-decoration: none;
+    }
+
+    .style1 .header-wrapper .logo {
+        text-align: left;
+    }
+
+    .style1 .top-menu-wrapper {
+        margin-top: -50px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .style1 h1.site-title, .style1 h1.site-title a,
+    .style1 p.site-title, .style1 p.site-title a {
+        font-size: 25px !important;
+    }
+
+    .style1 .header-wrapper .logo h1,
+    .style1 .header-wrapper .logo p {
+        width: 90% !important;
+    }
+
+    .style1 .header-wrapper .logo img {
+        width: 80% !important;
+    }
+
+    .woocommerce-demo-store.has-topbar #topsidebar {
+        margin-top: 70px;
+    }
+
+    .woocommerce-demo-store.no-topbar header {
+        margin-top: 70px;
+    }
+
+    header .top-menu-wrapper {
+        margin-top: 0 !important;
+    }
+
+    .style1 .top-menu-wrapper { 
+        margin-top: -45px;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .style1 .header-wrapper .logo {
+        position: relative;
+        display: inline-block;
+    }
+
+    .style1 .header-wrapper .logo img {
+        width: 70% !important;
+    }
+
+    .style1 .top-menu-wrapper {
+        width: auto;
+        float: right;
+        margin-top: -40px !important;
+    }
+
+    .top-menu-wrapper .menu-header > span {
+        display: none;
+    }
+
+    .style1 h1.site-title, .style1 h1.site-title a,
+    .style1 p.site-title, .style1 p.site-title a {
+        font-size: 18px !important;
+    }
+}

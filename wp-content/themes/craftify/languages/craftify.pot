@@ -1,0 +1,812 @@
+# Copyright (C) 2024 Eagle Vision IT
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Craftify 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/craftify\n"
+"POT-Creation-Date: 2024-11-05 11:31:32+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: functions.php:63 patterns/footer.php:16
+msgid "Craftify"
+msgstr ""
+
+#: functions.php:64
+msgid "A collection of patterns."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:827
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2533
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:1121
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin/tgmpa-hook.php:62
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/tgm-plugin/tgmpa-hook.php:67
+msgid "WC Booster"
+msgstr ""
+
+#: patterns/404.php:16
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:20
+msgid "Page not found"
+msgstr ""
+
+#: patterns/404.php:24
+msgid "It looks like nothing was found at this location. Click button below to return to homepage."
+msgstr ""
+
+#: patterns/404.php:29
+msgid "Back to Home"
+msgstr ""
+
+#: patterns/about-us.php:27
+msgid "Furniture design ideas"
+msgstr ""
+
+#: patterns/about-us.php:31
+msgid "Luxury & Contemporary"
+msgstr ""
+
+#: patterns/about-us.php:35
+msgid "Explore craftify's curated collection of and classic contemporary pieces designed to create luxury and functional living spaces. Get modern and stylish functional living spaces."
+msgstr ""
+
+#: patterns/about-us.php:40 patterns/category-collage.php:56
+#: patterns/category-collage.php:76
+msgid "Shop Now"
+msgstr ""
+
+#: patterns/banner.php:56
+msgid "Make Your Interior Unique."
+msgstr ""
+
+#: patterns/banner.php:60
+msgid "Turn your room with panto into a lot more minimalist and modern.Get modern and stylish functional living spaces."
+msgstr ""
+
+#: patterns/banner.php:65
+msgid "Discover now"
+msgstr ""
+
+#: patterns/best-selling.php:17 patterns/best-selling.php:31
+msgid "Best Selling Products"
+msgstr ""
+
+#: patterns/best-selling.php:44 patterns/best-selling.php:66
+#: patterns/best-selling.php:88 patterns/best-selling.php:110
+#: patterns/deal-day.php:108 patterns/deal-day.php:188
+msgid "☆☆☆☆☆"
+msgstr ""
+
+#: patterns/best-selling.php:48 patterns/best-selling.php:70
+#: patterns/best-selling.php:92 patterns/best-selling.php:114
+#: patterns/featured-products.php:70 patterns/featured-products.php:86
+#: patterns/featured-products.php:102 patterns/featured-products.php:120
+#: patterns/featured-products.php:136 patterns/featured-products.php:152
+#: patterns/our-product.php:66 patterns/our-product.php:90
+#: patterns/our-product.php:114 patterns/our-product.php:138
+msgid "White Fabric Sofa"
+msgstr ""
+
+#: patterns/best-selling.php:52 patterns/best-selling.php:74
+#: patterns/best-selling.php:96 patterns/best-selling.php:118
+#: patterns/deal-day.php:113 patterns/deal-day.php:193
+#: patterns/featured-products.php:74 patterns/featured-products.php:90
+#: patterns/featured-products.php:106 patterns/featured-products.php:124
+#: patterns/featured-products.php:140 patterns/featured-products.php:156
+#: patterns/our-product.php:70 patterns/our-product.php:94
+#: patterns/our-product.php:118 patterns/our-product.php:142
+msgid "$112.00"
+msgstr ""
+
+#: patterns/category-collage.php:21 patterns/category-collage.php:31
+msgid "Buy Now"
+msgstr ""
+
+#: patterns/category-collage.php:47
+msgid "chair"
+msgstr ""
+
+#: patterns/category-collage.php:51 patterns/category-collage.php:71
+msgid "Volutpat natoque nullam sed"
+msgstr ""
+
+#: patterns/category-collage.php:67
+msgid "Sofa"
+msgstr ""
+
+#: patterns/cta.php:19
+msgid "Explore Now"
+msgstr ""
+
+#: patterns/cta.php:31
+msgid "unique furniture inspirations"
+msgstr ""
+
+#: patterns/cta.php:35 patterns/deal-day.php:122 patterns/deal-day.php:202
+msgid "Explore craftify's curated collection of and classic contemporary pieces designed to create luxury and functional living spaces."
+msgstr ""
+
+#: patterns/cta.php:40
+msgid "Explore now"
+msgstr ""
+
+#: patterns/deal-day.php:17 patterns/deal-day.php:87
+msgid "Deal Of the Day"
+msgstr ""
+
+#: patterns/deal-day.php:96 patterns/deal-day.php:176
+msgid "Sale"
+msgstr ""
+
+#: patterns/deal-day.php:104 patterns/deal-day.php:184
+#: patterns/trending-products.php:99 patterns/trending-products.php:119
+#: patterns/trending-products.php:139 patterns/trending-products.php:165
+#: patterns/trending-products.php:185 patterns/trending-products.php:205
+#: patterns/trending-products.php:231 patterns/trending-products.php:251
+#: patterns/trending-products.php:271
+msgid "White fabric sofa"
+msgstr ""
+
+#: patterns/deal-day.php:117 patterns/deal-day.php:197
+msgid "$150.00"
+msgstr ""
+
+#: patterns/deal-day.php:128 patterns/deal-day.php:208
+msgid "63"
+msgstr ""
+
+#: patterns/deal-day.php:132 patterns/deal-day.php:212
+msgid "Days"
+msgstr ""
+
+#: patterns/deal-day.php:138 patterns/deal-day.php:218
+msgid "06"
+msgstr ""
+
+#: patterns/deal-day.php:142 patterns/deal-day.php:222
+msgid "Hours"
+msgstr ""
+
+#: patterns/deal-day.php:148 patterns/deal-day.php:228
+msgid "57"
+msgstr ""
+
+#: patterns/deal-day.php:152 patterns/deal-day.php:232
+msgid "Min"
+msgstr ""
+
+#: patterns/deal-day.php:158 patterns/deal-day.php:238
+msgid "21"
+msgstr ""
+
+#: patterns/deal-day.php:162 patterns/deal-day.php:242
+msgid "Sec"
+msgstr ""
+
+#: patterns/featured-products.php:18 patterns/featured-products.php:50
+msgid "Featured Products"
+msgstr ""
+
+#: patterns/footer.php:20
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing incididunt ut labore elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: patterns/footer.php:36
+msgid "Product Categories"
+msgstr ""
+
+#: patterns/footer.php:40
+msgid "Accessories"
+msgstr ""
+
+#: patterns/footer.php:44
+msgid "Best Sales"
+msgstr ""
+
+#: patterns/footer.php:48
+msgid "Top Sales"
+msgstr ""
+
+#: patterns/footer.php:52
+msgid "Limited Offers"
+msgstr ""
+
+#: patterns/footer.php:58
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer.php:62
+msgid "+01-(866)-123456"
+msgstr ""
+
+#: patterns/footer.php:66
+msgid "Example@example.com"
+msgstr ""
+
+#: patterns/footer.php:70
+msgid "Mon-Sat  9 AM-6 PM"
+msgstr ""
+
+#: patterns/footer.php:76
+msgid "Safe & Secure Payments"
+msgstr ""
+
+#: patterns/footer.php:84
+msgid "Download App From"
+msgstr ""
+
+#: patterns/footer.php:98
+msgid "© 2024 Copyright All right Reserved"
+msgstr ""
+
+#: patterns/our-product.php:17 patterns/our-product.php:27
+msgid "Our Products"
+msgstr ""
+
+#: patterns/our-product.php:32
+msgid "All"
+msgstr ""
+
+#: patterns/our-product.php:36
+msgid "Living"
+msgstr ""
+
+#: patterns/our-product.php:40 patterns/trending-products.php:39
+#: patterns/trending-products.php:151
+msgid "Kitchen"
+msgstr ""
+
+#: patterns/our-product.php:44 patterns/trending-products.php:19
+#: patterns/trending-products.php:85
+msgid "Bedroom"
+msgstr ""
+
+#: patterns/our-product.php:48 patterns/trending-products.php:59
+#: patterns/trending-products.php:217
+msgid "Terrace"
+msgstr ""
+
+#: patterns/our-product.php:57
+msgid "30%"
+msgstr ""
+
+#: patterns/product-toggler.php:57
+msgid "Upto 80% discount on office furniture"
+msgstr ""
+
+#: patterns/product-toggler.php:67 patterns/product-toggler.php:101
+#: patterns/product-toggler.php:135
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo…"
+msgstr ""
+
+#: patterns/product-toggler.php:71 patterns/product-toggler.php:105
+#: patterns/product-toggler.php:139 patterns/product-toggler.php:173
+msgid "$200.00"
+msgstr ""
+
+#: patterns/product-toggler.php:91
+msgid "Upto 80% discount on kitchen furniture"
+msgstr ""
+
+#: patterns/product-toggler.php:125
+msgid "Upto 80% discount on terrace furniture"
+msgstr ""
+
+#: patterns/product-toggler.php:159
+msgid "Upto 80% discount on bedroom furniture"
+msgstr ""
+
+#: patterns/product-toggler.php:169
+msgid "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo..."
+msgstr ""
+
+#: patterns/sidebar.php:23
+msgid "Recent post"
+msgstr ""
+
+#: patterns/sidebar.php:55
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:75
+msgid "Categories"
+msgstr ""
+
+#: patterns/template-archive-product.php:29
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/template-archive-product.php:41
+msgid "Filter by stock status"
+msgstr ""
+
+#: patterns/template-archive-product.php:53
+msgid "Filter by colors"
+msgstr ""
+
+#: patterns/template-archive-product.php:65
+msgid "Filter by sizes"
+msgstr ""
+
+#: patterns/template-archive-product.php:130
+msgid "No results found"
+msgstr ""
+
+#: patterns/template-archive-product.php:134
+msgid "You can try"
+msgstr ""
+
+#: patterns/template-archive-product.php:134
+msgid "clearing any filters"
+msgstr ""
+
+#: patterns/template-archive-product.php:134
+msgid "or head to our"
+msgstr ""
+
+#: patterns/template-archive-product.php:134
+msgid "store's home"
+msgstr ""
+
+#: patterns/template-cart.php:23
+msgid "You may be interested in"
+msgstr ""
+
+#: patterns/template-cart.php:81
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: patterns/template-cart.php:85
+msgid "Browse store"
+msgstr ""
+
+#: patterns/template-cart.php:93
+msgid "New in store"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:20
+msgid "Order details"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:28
+msgid "Downloads"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:38
+msgid "Shipping address"
+msgstr ""
+
+#: patterns/template-order-confirmation.php:48
+msgid "Billing address"
+msgstr ""
+
+#: patterns/template-single-product.php:79
+msgid "Buy with Gpay"
+msgstr ""
+
+#: patterns/template-single-product.php:98
+msgid "You may also like"
+msgstr ""
+
+#: patterns/template-single-product.php:117
+msgid "Related products"
+msgstr ""
+
+#: patterns/trending-products.php:95 patterns/trending-products.php:115
+#: patterns/trending-products.php:135 patterns/trending-products.php:161
+#: patterns/trending-products.php:181 patterns/trending-products.php:201
+#: patterns/trending-products.php:227 patterns/trending-products.php:247
+msgid "Table"
+msgstr ""
+
+#: patterns/trending-products.php:103 patterns/trending-products.php:123
+#: patterns/trending-products.php:143 patterns/trending-products.php:169
+#: patterns/trending-products.php:189 patterns/trending-products.php:209
+#: patterns/trending-products.php:235 patterns/trending-products.php:255
+#: patterns/trending-products.php:275
+msgid "$50.00"
+msgstr ""
+#. Theme Name of the plugin/theme
+msgid "Craftify"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Introducing Craftify, a sleek and SEO-friendly eCommerce theme powered by WooCommerce and the WC Booster plugin. With fast-loading and SEO-optimized features, it enhances your site's visibility on Google. Tailored for online fashion retail, it seamlessly integrates payment options for your customers. Build your website effortlessly in minutes, no coding required, thanks to its Gutenberg-friendly design and SEO-standard coding. Enjoy additional features like WooCommerce integration, category collage, product slider, and gallery upon installation. See the real demo site at  https://demos.eaglevisionit.com/craftify/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eagle Vision IT"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.eaglevisionit.com"
+msgstr ""

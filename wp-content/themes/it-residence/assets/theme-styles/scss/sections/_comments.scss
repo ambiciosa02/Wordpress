@@ -1,0 +1,90 @@
+/**
+ *	Styling for the comment section of the theme
+ */
+
+// The Respond Section
+#respond {
+
+	label {
+		min-width: 6rem;
+		@extend %heading-font;
+		cursor: pointer;
+	}
+	textarea {
+		padding: .5rem;
+        background-color: #f5f5f5;
+        border-radius: var(--border-radius);
+	}
+	input[type="submit"] {
+		@extend %btn;
+		background-color: var(--accent);
+    	filter: brightness(85%) contrast(150%);
+	}
+}
+
+// The Comments area
+
+#comments {
+	margin-top: 2em;
+    a.url, p a {
+        @extend %underline;
+    }
+	.comments-title {
+		margin-bottom: 1em;
+	}
+    .comment-list {
+        padding-left: 0;
+    }
+	.comment-list, ul.children {
+		margin: 0;
+		list-style: none;
+	}
+	ol.comment-list {
+		overflow: hidden;
+	}
+	.comment-body {
+		margin-bottom: 0.8em;
+        padding-right: 1em;
+		a {
+			text-decoration: underline;
+		}
+	}
+	ul.children {
+		padding-left: 0;
+	}
+	.comment {
+		border: solid 1px #eeeeee;
+        border-radius: var(--border-radius);
+		padding: 1rem 0.25rem 1rem 1rem;
+		margin-bottom: 1em;
+
+		.vcard {
+			margin-right: .75rem;
+
+			a {
+				color: var(--accent);
+			}
+
+			img {
+				border-radius: 50%;
+				margin-right: .75rem;
+			}
+		}
+		.comment-meta {
+
+			a {
+				color: rgba(0,0,0,0.5);
+				font-size: .75rem;
+				letter-spacing: .05rem;
+				margin-right: .75rem;
+			}
+		}
+
+		.reply {
+
+			a {
+				@extend %btn;
+			}
+		}
+	}
+}

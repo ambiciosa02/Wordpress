@@ -1,0 +1,390 @@
+/*
+Theme Name: Decorative
+Theme URI: https://flythemes.net/wordpress-themes/decorative-block-wordpress-theme/
+Author: Flythemes
+Author URI: https://flythemes.net
+Description: Decorative WordPress theme is modern and elegant fully responsive WordPress theme specially made for interior decorators, architects, home designers and relevant to interior businesses. Our decorative Full Site Editing WordPress theme is tailor-made for interior decorators like you who want to showcase their expertise, attract new clients, and take their business to the next level. Decorative WordPress theme offers a wide range of professionally designed templates that are specifically crafted for interior decorators. From chic and minimalistic to bold and colorful, you can choose a design that reflects your unique style and brand. With full site editing capabilities, you have the freedom to customize every aspect of your website without any coding knowledge. Easily tweak fonts, colors, layouts, and more to create a website that perfectly matches your vision. Share your expertise and insights through an integrated blog section. Regularly publishing informative and engaging content not only establishes you as an authority in interior design but also helps with SEO, driving more organic traffic to your website. Decorative WordPress theme ensures that your site looks and functions flawlessly on all devices, providing an excellent user experience for all visitors. If you sell interior design products or services online, our theme supports e-commerce integration. You can easily set up an online store and start selling directly from your website. Decorative WordPress theme comes with an intuitive dashboard and user-friendly interface, making it easy for you to update and maintain your site.
+Requires at least: 6.1
+Tested up to: 6.3
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: decorative
+Tags: portfolio, e-commerce, blog, one-column, two-columns, three-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, right-sidebar, custom-background, wide-blocks
+
+Decorative is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+Decorative WordPress Theme has been created by Flythemes(flythemes.net), 2023.
+Decorative WordPress Theme is released under the terms of GNU GPL
+*/
+
+a{
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container{
+    background-color: var(--wp--preset--color--white);
+}
+
+.wp-block-navigation__responsive-container .wp-block-navigation-link a{
+    color: var(--wp--preset--color--white);
+}
+
+a:focus,
+button:focus{
+	outline: 2px solid blue !important;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.vertical-middle img{
+    vertical-align: middle;
+}
+
+.shadow{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.banner-sub-title{
+    display: inline-block;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+}
+
+.section_head {
+    margin-bottom: 50px;
+}
+
+h4.section_sub_title {
+    margin-bottom: 10px;
+    color: var(--wp--preset--color--white);
+    margin-bottom: 10px;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+}
+
+h2.section_title {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+h2.section_title:after {
+    content: "";
+    border-top: 3px double var(--wp--preset--color--primary);
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.no-pesdue:before,
+.no-pesdue:after{
+    content: none !important;
+}
+
+/**** Service Box ****/
+.service-number{
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Archivo';
+    margin-bottom: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e7e7e7;
+    line-height: 1;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    transition: 0.3s;
+}
+
+/**** Team Members ****/
+.team-thumb{
+    padding-right: 40px;
+    overflow: hidden;
+}
+.team-designation{
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    text-align: left;
+    padding-top: 10px;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.team-social {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 15px;
+    left: -75px;
+    display: inline-block;
+    width: 60px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.team-thumb:hover .team-social{
+    left: 15px;
+}
+
+/**** Testimonials ****/
+.testi-thumb{
+    -webkit-clip-path: polygon(14% 0, 100% 0, 84% 99%, 0 100%);
+    clip-path: polygon(14% 0, 100% 0, 84% 99%, 0 100%);
+}
+
+/**** Latest News ****/
+
+/**** Footer ****/
+.footer-info .wp-block-image img{
+    vertical-align: middle;
+}
+
+form {
+    position: relative;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    border: 1px solid #ebebeb;
+    outline: 0;
+    resize: none;
+    line-height: 20px;
+    background: none;
+    color: #000000;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {
+    display: none; /* hide the default arrow in ie10 and ie11 */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--wp--preset--color--primary);
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--wp--preset--color--primary);
+    color: #ffffff;
+}
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.wpcf7-form label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 0 8px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group p{
+    margin: 0;
+}
+
+.form-group.half {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+}
+
+.form-group.half.last {
+    margin-right: 0;
+}
+
+.form-group.third {
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+
+.form-group.third.last {
+    margin-right: 0;
+}
+
+
+/* --- Block Media Quries
+-------------------------------------------------------- */
+/* --- > Media Queries
+-------------------------------------------------------- */
+/* --- > 781px
+-------------------------------------------------------- */
+@media screen and (max-width:999px) {
+    .wp-block-navigation__responsive-container,
+    .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content{
+        display: none;
+    }
+
+    .wp-block-navigation__responsive-container-close,
+    .wp-block-navigation__responsive-container-open{
+        background: var(--wp--preset--color--primary);
+    }
+
+    .wp-block-navigation__responsive-container-close svg,
+    .wp-block-navigation__responsive-container-open svg{
+        width: 42px;
+        height: 42px;
+    }
+    
+    .wp-block-navigation__responsive-container-open svg path,
+    .wp-block-navigation__responsive-container-close svg path{
+        fill: var(--wp--preset--color--white);
+    }
+
+    .wp-block-navigation__responsive-container-close{
+        top: 20px;
+        right: 20px;
+    }
+
+    .wp-block-navigation__responsive-container-open:not(.always-shown){
+        display: block;
+    }
+
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none; 
+    }
+
+    .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open{
+        background-color: var(--wp--preset--color--secondary);
+    }
+
+    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content{
+        padding: 1.5em;
+    }
+
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container {
+        width: 100%;
+        gap: 0 !important;
+        border-bottom: none;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item {
+        width: 100%;
+        gap: 0 !important;
+        border: none !important;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item a {
+        width: calc( 100% - 48px );
+        padding: 12px 24px 12px;
+        line-height: 30px;
+    }
+
+    /*
+    * Submenu Css
+    */
+
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon {
+        display: block !important;
+        margin-left: 15px;
+        padding: 3px 10px;
+        float: right;
+        font-size: 19px;
+        line-height: 1;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 42px;
+        width: 42px;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation__submenu-icon svg {
+        stroke: var(--wp--preset--color--secondary);
+        display: block;
+        width: 30px;
+        height: 13px;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item ul.wp-block-navigation__submenu-container {
+        width: 100%;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        display: none;
+        box-shadow: none;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item ul.wp-block-navigation__submenu-container li.wp-block-navigation-item a {
+        padding-left: 35px;
+    }
+    .wp-block-navigation .wp-block-navigation__responsive-container-content ul.wp-block-navigation__container li.wp-block-navigation-item .wp-block-navigation-submenu__toggle[aria-expanded=true] + ul.wp-block-navigation__submenu-container {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}

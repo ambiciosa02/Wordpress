@@ -1,0 +1,288 @@
+/**
+ * Styling for the admin page
+ *
+ * @package Home Decor Shop
+ */
+
+.home-decor-shop-theme-setting-item {
+  display: inline-block;
+  padding: 20px;
+  background: #f5f5f7;
+  max-width: 28%;
+  width: 100%;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.customizer-inside{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-decor-shop-theme-setting-item.home-decor-shop-theme-setting-item-unavailable .home-decor-shop-theme-setting-item-header {
+  display: flex;
+  justify-content: space-between;
+}
+.home-decor-shop-theme-setting-sidebar-header {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  color: #000;
+}
+.home-decor-shop-theme-setting-sidebar-content {
+  padding: 20px;
+}
+.home-decor-shop-theme-setting-sidebar-item {
+  background: #fff;
+  margin-bottom: 20px;
+}
+.home-decor-shop-theme-setting-item-content span{
+  text-decoration: underline !important;
+}
+.home-decor-shop-theme-setting-item-header {
+  font-weight: bold;
+  margin-bottom: 27px;
+  font-size: 13px;
+  color: #000;
+}
+.home-decor-shop-theme-setting-item.home-decor-shop-theme-setting-item-unavailable .home-decor-shop-theme-setting-item-header {
+  text-decoration: none;
+  color: #3c434a;
+}
+.home-decor-shop-theme-setting-sidebar-content p{
+  margin-top: 0px;
+  color: #000;
+}
+.home-decor-shop-theme-setting-item.home-decor-shop-theme-setting-item-unavailable .home-decor-shop-theme-setting-item-header span:last-of-type{
+  font-size: 11px;
+  background: #ff6d34;
+  color: #fff;
+  padding: 3px 10px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -3px;
+  opacity: 0.6;
+  }
+.home-decor-shop-theme-setting-item-header {
+  font-weight: bold;
+  margin-bottom: 27px;
+  font-size: 13px;
+}
+.postbox {
+  width: 97%;
+  padding: 5px;
+  border-radius: 0;
+  box-shadow: none;
+  background: rgba(255, 255, 255, .5);
+}
+#lefty  {
+  display: block;
+  float: left;
+  width: calc(100% - 780px);
+  padding: 0 15px;
+}
+#main-page.wrap {
+  margin: 50px 0;
+}
+#description {
+  margin: 0 auto;
+  line-height: 2;
+  background: #FFF;
+  padding: 2em;
+}
+#description-inside {
+  overflow-y: auto;
+  max-height: 400px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+#description h3 span {
+  font-weight: normal;
+  font-size: 15px;
+}
+#description h3 {
+  font-size: 18px;
+  margin-top: 0;
+  background: #002c60;
+  padding: 14px;
+  color: #fff;
+  text-align: center;
+}
+#righty {
+  display: block;
+  float: left;
+  width: 359px;
+}
+.postbox .inside{
+  padding: 0;
+}
+
+.postbox.donate h3, .inside p {
+  text-align: center;
+}
+#admin_pro_links {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+/* ADMIN HEADER AND LINKS */
+
+#admin_links {
+  overflow: hidden;
+  display: flex;
+  gap: 15px;
+  justify-content: left;
+  width: 100%;
+}
+#admin_links a, #admin_pro_links a{
+  display: flex;
+  float: left;
+  width: 33.333%;
+  width: calc(100% / 4);
+  font-size: 12px;
+  padding: 1em;
+  letter-spacing: 1px;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  transition: .3s all;
+}
+#admin_pro_links a {
+  width: calc(100% / 3);
+  padding: 15px 10px;
+}
+
+#admin_links a {
+  width: 60%;
+  padding: 15px 6px;
+  margin-top: 16px;
+}
+
+a.blue-button-1, a.blue-button-2:hover,a#customizer:hover  {
+  background: #002c60;
+}
+a#customizer, a.blue-button-2, a.blue-button-1:hover {
+  background: #ff6d34;
+}
+span.dashicons.dashicons-no,span.dashicons.dashicons-yes {
+  color: red;
+  font-size: 27px;
+  margin: 0px;
+}
+span.dashicons.dashicons-yes{
+  color: green;
+}
+
+/* New Table CSS */
+
+.d-table {
+  min-width: 300px;
+  min-height: 300px;
+  display: block;
+  padding: 1px 10px;
+}
+.d-table ul {
+  list-style-type: none;
+  border-bottom: 1px solid #eeeeee;
+}
+.d-column li {
+  padding: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+}
+.d-row li {
+  padding: 0px;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  font-size: 15px;
+  color: #000;
+}
+li.feature {
+  font-weight: bold;
+  color: #000 !important;
+}
+li.free, li.plus {
+  float: right;
+  font-weight: bold;
+  color: #000 !important;
+}
+li.wrong, li.right {
+  float: right;
+}
+li.points {
+  width: 65%;
+}
+.getstart-postbox h4 {
+  text-align: center;
+  background: green;
+  width: 50%;
+  margin: 10px auto 0;
+  padding: 7px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.getstart-postbox h4 span {
+  color: yellow;
+}
+
+.demo-import-box input.blue-button-2,.blue-button-1 {
+  background: #ff6d34;
+  padding: 10px 50px;
+  font-size: 18px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 0 10px 2px #e1e1e1;
+  cursor: pointer;
+  display: inline-block;
+}
+.demo-import-box .blue-button-1 {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+p.imp-success {
+  font-size: 15px;
+  background: green;
+  color: #fff;
+  font-weight: bold;
+  width: 20%;
+  margin: 0 auto 15px;
+}
+.demo-import-box {
+  width: 100%;
+  float: left;
+  text-align: center;
+  border: 1px solid #c3c4c7;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .04);
+  padding: 15px 5px;
+}
+.demo-import-box h4 {
+    margin-top: 0;
+}
+
+#adminmenu .wp-not-current-submenu a[href^="admin.php?page=home-decor-shop-guide-page"],#adminmenu li.current a.toplevel_page_home-decor-shop-guide-page{
+  background: #ff6d34;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.wp-menu-image.dashicons-before.dashicons-admin-generic:before{
+  color: #fff !important;
+}
+h3.hndle, .postbox.donate h4 {
+    text-align: center;
+}
